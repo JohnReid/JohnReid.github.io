@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Publications
-description: A list of my publications.
-header-img: images/publications-0.jpg
+description: ""
+header-img: images/DSC00372.jpg
 comments: false
-modified: 2015-04-15
+modified: 2016-03-18
 ---
 
 ## Journal Articles
@@ -12,7 +12,7 @@ modified: 2015-04-15
 
 <div class='panel-pub'>
 <ol>
-{% for article in site.data.journal %}
+{% for article in site.data.journals.references %}
     <li>
     <div class="title">
     <span class="title">{{ article.title }}</span>

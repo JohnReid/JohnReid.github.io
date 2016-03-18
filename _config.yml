@@ -1,25 +1,25 @@
-title:            Yi-Xin Liu
-description:      "Dr. Yi-Xin Liu is a lecturer and researcher working in the field of polymer physics at Fudan University. He currently is working at MRL@UCSB as a visiting researcher."
-disqus_shortname: ngpy
+title:            John Reid
+description:      "Dr. John Reid is a researcher working in the field of biostatistics."
+# disqus_shortname: JohnReid
 reading_time:     true
 words_per_minute: 200
-#url:                    # blank for local preview
-url: http://ngpy.org   # for production
-header-img: images/homepage.jpg
+url:                    # blank for local preview
+# url: <website>         # for production
+header-img: images/DSC00190.jpg
 excerpt_separator: "<!--more-->"
 
 # Owner/author information
 owner:
-  name:           Yi-Xin Liu
+  name:           John Reid
   avatar:         avatar.jpg
-  bio:            "Dr. Yi-Xin Liu is a lecturer and researcher working in the field of polymer physics at Fudan University. He currently is also working at MRL@UC Santa Barbara as a visiting researcher."
-  email:          lyx@fudan.edu.cn
+  bio:            "Dr. John Reid is a researcher working in the fields of biostatistics at the MRC Biostatistics Unit in Cambridge, UK."
+  email:          johnbaronreid@gmail.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter: lyxfudan
+  twitter: __Reidy__
   facebook:
-  github: liuyxpp
+  github: JohnReid
   stackexchange:
-  linkedin:
+  linkedin: john-reid-8956434
   instagram:
   flickr:
   tumblr:
@@ -30,18 +30,19 @@ owner:
 background:
 
 # Analytics and webmaster tools stuff goes here
-google_analytics: UA-31783224-1  # Analytics Property ID
-google_verify: vCNYuIbRPqv4coJvcqQglEsd4IBd9p4cP0AdERyG86w  # Webmaster
+google_analytics:   # Analytics Property ID
+google_verify:   # Webmaster
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Asia/Shanghai
+timezone:    Europe/London
 future:      true
 highlighter: pygments
 markdown:    kramdown
 gems:
   - jekyll-sitemap
+  - jekyll-paginate
 sass:
   sass_dir: _sass
   style: compressed
@@ -59,7 +60,7 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..3
-  use_coderay: true
+  enable_coderay: true
 
   coderay:
     coderay_line_numbers: inline

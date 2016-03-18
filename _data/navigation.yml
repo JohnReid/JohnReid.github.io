@@ -12,8 +12,8 @@
 - title:    Software
   url:      /software/
 
-- title:    Blog
-  url:      /blog/
+# - title:    Blog
+#   url:      /blog/
 
 - title:    About
   url:      /about/
