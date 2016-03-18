@@ -1,5 +1,43 @@
 ---
 references:
+
+- id: vance_conserved_2015
+  type: article-journal
+  title: Conserved cis-regulatory modules control robustness in Msx1 expression at single cell resolution
+  container-title: Genome Biology and Evolution
+  page: evv179
+  source: gbe.oxfordjournals.org
+  abstract: 'The process of transcription is highly stochastic leading to cell-to-cell variations and noise in gene expression levels. However, key essential genes have to be precisely expressed at the correct amount and time to ensure proper cellular development and function. Studies in yeast and bacterial systems have shown that gene expression noise decreases as mean expression levels increase, a relationship that is controlled by promoter DNA sequence. However, the function of distal cis-regulatory modules (CRMs), an evolutionary novelty of metazoans, in controlling transcriptional robustness and variability is poorly understood. In this study, we used live cell imaging of transfected reporters combined with a mathematical modelling and statistical inference scheme, to quantify the function of conserved Msx1 CRMs and promoters in modulating single cell real time transcription rates in C2C12 mouse myoblasts. The results show that the mean expression-noise relationship is solely promoter controlled for this key pluripotency regulator. In addition, we demonstrate that CRMs modulate single cell basal promoter rate distributions in a graded manner across a population of cells. This extends the rheostatic model of CRM action to provide a more detailed understanding of CRM function at single cell resolution. We also identify a novel CRM transcriptional filter function that acts to reduce intracellular variability in transcription rates and show that this can be phylogenetically separable from rate modulating CRM activities. These results are important for understanding how the expression of key vertebrate developmental transcription factors is precisely controlled both within and between individual cells.'
+  URL: 'http://gbe.oxfordjournals.org/content/early/2015/09/04/gbe.evv179'
+  DOI: 10.1093/gbe/evv179
+  ISSN: ', 1759-6653'
+  language: en
+  author:
+    - family: Vance
+      given: Keith W.
+    - family: Woodcock
+      given: Dan J.
+    - family: Reid
+      given: John E.
+    - family: Bretschneider
+      given: Till
+    - family: Ott
+      given: Sascha
+    - family: Koentges
+      given: Georgy
+  issued:
+    date-parts:
+      - - 2015
+        - 9
+        - 4
+  accessed:
+    date-parts:
+      - - '2015'
+        - 9
+        - 7
+  PMID: '26342140'
+  container-title-short: Genome Biol Evol
+
 - id: reid_steme_2014
   type: article-journal
   title: 'STEME: A Robust, Accurate Motif Finder for Large Data Sets'
@@ -29,48 +67,23 @@ references:
   title-short: STEME
   container-title-short: PLoS ONE
 
-- id: reid_variable_2010
+- id: reid_steme_2011
   type: article-journal
-  title: Variable structure motifs for transcription factor binding sites
-  container-title: BMC genomics
-  page: '30'
-  volume: '11'
-  issue: '1'
+  title: 'STEME: efficient EM to find motifs in large data sets'
+  container-title: Nucleic Acids Research
+  page: e126–e126
+  volume: '39'
+  issue: '18'
   source: Google Scholar
   author:
     - family: Reid
-      given: J.
-    - family: Evans
-      given: K.
-    - family: Dyer
-      given: N.
-    - family: Wernisch
-      given: L.
-    - family: Ott
-      given: S.
-  issued:
-    date-parts:
-      - - 2010
-
-- id: reid_transcriptional_2009
-  type: article-journal
-  title: 'Transcriptional programs: Modelling higher order structure in transcriptional control'
-  container-title: BMC bioinformatics
-  page: '218'
-  volume: '10'
-  issue: '1'
-  source: Google Scholar
-  author:
-    - family: Reid
-      given: J.
-    - family: Ott
-      given: S.
+      given: J.E.
     - family: Wernisch
       given: L.
   issued:
     date-parts:
-      - - 2009
-  title-short: Transcriptional programs
+      - - 2011
+  title-short: STEME
 
 - id: granier_nodal_2011
   type: article-journal
@@ -144,6 +157,49 @@ references:
     date-parts:
       - - 2010
 
+- id: reid_variable_2010
+  type: article-journal
+  title: Variable structure motifs for transcription factor binding sites
+  container-title: BMC Genomics
+  page: '30'
+  volume: '11'
+  issue: '1'
+  source: Google Scholar
+  author:
+    - family: Reid
+      given: J.
+    - family: Evans
+      given: K.
+    - family: Dyer
+      given: N.
+    - family: Wernisch
+      given: L.
+    - family: Ott
+      given: S.
+  issued:
+    date-parts:
+      - - 2010
+
+- id: reid_transcriptional_2009
+  type: article-journal
+  title: 'Transcriptional programs: Modelling higher order structure in transcriptional control'
+  container-title: BMC Bioinformatics
+  page: '218'
+  volume: '10'
+  issue: '1'
+  source: Google Scholar
+  author:
+    - family: Reid
+      given: J.
+    - family: Ott
+      given: S.
+    - family: Wernisch
+      given: L.
+  issued:
+    date-parts:
+      - - 2009
+  title-short: Transcriptional programs
+
 - id: spensley_evolutionarily_2009
   type: article-journal
   title: Evolutionarily conserved regulatory motifs in the promoter of the Arabidopsis clock gene LATE ELONGATED HYPOCOTYL
@@ -170,59 +226,4 @@ references:
   issued:
     date-parts:
       - - 2009
-
-- id: vance_conserved_2015
-  type: article-journal
-  title: Conserved cis-regulatory modules control robustness in Msx1 expression at single cell resolution
-  container-title: Genome Biology and Evolution
-  page: evv179
-  source: gbe.oxfordjournals.org
-  abstract: 'The process of transcription is highly stochastic leading to cell-to-cell variations and noise in gene expression levels. However, key essential genes have to be precisely expressed at the correct amount and time to ensure proper cellular development and function. Studies in yeast and bacterial systems have shown that gene expression noise decreases as mean expression levels increase, a relationship that is controlled by promoter DNA sequence. However, the function of distal cis-regulatory modules (CRMs), an evolutionary novelty of metazoans, in controlling transcriptional robustness and variability is poorly understood. In this study, we used live cell imaging of transfected reporters combined with a mathematical modelling and statistical inference scheme, to quantify the function of conserved Msx1 CRMs and promoters in modulating single cell real time transcription rates in C2C12 mouse myoblasts. The results show that the mean expression-noise relationship is solely promoter controlled for this key pluripotency regulator. In addition, we demonstrate that CRMs modulate single cell basal promoter rate distributions in a graded manner across a population of cells. This extends the rheostatic model of CRM action to provide a more detailed understanding of CRM function at single cell resolution. We also identify a novel CRM transcriptional filter function that acts to reduce intracellular variability in transcription rates and show that this can be phylogenetically separable from rate modulating CRM activities. These results are important for understanding how the expression of key vertebrate developmental transcription factors is precisely controlled both within and between individual cells.'
-  URL: 'http://gbe.oxfordjournals.org/content/early/2015/09/04/gbe.evv179'
-  DOI: 10.1093/gbe/evv179
-  ISSN: ', 1759-6653'
-  language: en
-  author:
-    - family: Vance
-      given: Keith W.
-    - family: Woodcock
-      given: Dan J.
-    - family: Reid
-      given: John E.
-    - family: Bretschneider
-      given: Till
-    - family: Ott
-      given: Sascha
-    - family: Koentges
-      given: Georgy
-  issued:
-    date-parts:
-      - - 2015
-        - 9
-        - 4
-  accessed:
-    date-parts:
-      - - '2015'
-        - 9
-        - 7
-  PMID: '26342140'
-  container-title-short: Genome Biol Evol
-
-- id: reid_steme_2011
-  type: article-journal
-  title: 'STEME: efficient EM to find motifs in large data sets'
-  container-title: Nucleic acids research
-  page: e126–e126
-  volume: '39'
-  issue: '18'
-  source: Google Scholar
-  author:
-    - family: Reid
-      given: J.E.
-    - family: Wernisch
-      given: L.
-  issued:
-    date-parts:
-      - - 2011
-  title-short: STEME
 ...

@@ -22,11 +22,14 @@ modified: 2016-03-18
     </div>
     <div class='author'>
     {% for author in article.author %}
-        <span class='{{ author.role }}'>{{ author.family }}, {{ author.given_initial }}{% if author.role contains 'corr' %}*{% endif %}; </span>
+        <span class='{{ author.role }}'>{{ author.family }}, {{ author.given }}{% if author.role contains 'corr' %}*{% endif %}; </span>
     {% endfor %}
     </div>
     <div class="pubinfo">
-    <span class="source">{{ article.journal.abbreviation }} </span><span class="year">{{ article.year }}, </span><span class="volume">{{ article.volume }}, </span><span class="page">{{ article.page }}.</span>{% if article.language != 'english' %}<span class="language"> (In {{ article.language }})</span>{% endif %}
+    <span class="source">{{ article.container-title }} </span>
+    <span class="year">{{ article.issued.date-parts[0][0] }},</span>
+    <span class="volume">{{ article.volume }}, </span>
+    <span class="page">{{ article.page }}.</span>
     </div>
     <div class="url">
         <a href="{{ article.URL }}">{{ article.URL }}</a>
