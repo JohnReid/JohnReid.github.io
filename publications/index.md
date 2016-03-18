@@ -39,31 +39,6 @@ modified: 2016-03-18
 </ol>
 </div>
 
-## Presentations and Posters
------
-
-<div class='panel-pub'>
-<ol>
-{% for presentation in site.data.meeting %}
-    <li>
-    <div class="title">
-    <span class="title">{{ presentation.title }}</span>
-    {% if presentation.fulltext %}
-        <a title="fulltext" href="{{ site.url }}/downloads/meeting/{{ presentation.fulltext }}"><i class="fa fa-file-pdf-o"></i></a>
-    {% endif %}
-    </div>
-    <div class='author'>
-    {% for author in presentation.author %}
-        <span class='{{ author.role }}'>{{ author.family }}, {{ author.given_initial }}; </span>
-    {% endfor %}
-    </div>
-    <div class="pubinfo">
-    <span class="source">{{ presentation.source }} </span><span class="city">{{ presentation.city }}, </span><span class="year">{{ presentation.year }}.</span>
-    </div>
-    </li>
-{% endfor %}
-</ol>
-</div>
 
 ## Thesis
 -----
@@ -80,14 +55,16 @@ modified: 2016-03-18
     </div>
     <div class='author'>
     {% for author in thesis.author %}
-        <span class='{{ author.role }}'>{{ author.family }}, {{ author.given_initial }}</span>
+        <span class='{{ author.role }}'>{{ author.literal }}</span>
     {% endfor %}
     </div>
     {% for advisor in thesis.advisor %}
-        <span class='advisor'>{{ advisor.role }}: {{ advisor.family }}, {{ advisor.given_initial }}</span>
+        <span class='advisor'>{{ advisor.role }} : {{ advisor.literal }}</span>
     {% endfor %}
     <div class="pubinfo">
-    <span class="source">{{ thesis.source }} </span><span class="publisher">{{ thesis.publisher }}, </span><span class="year">{{ thesis.year }}.</span>
+    <span class="source">{{ thesis.source }} </span>
+    <span class="publisher">{{ thesis.publisher }}, </span>
+    <span class="year">{{ thesis.issued.date-parts[0][0] }}.</span>
     </div>
     </li>
 {% endfor %}
