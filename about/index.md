@@ -8,25 +8,22 @@ modified: 2016-03-18
 
 ## About me
 
-I am a scientific researcher working in the field of biostatistics at the Medical Research Council's Biostatistics Unit in Cambridge.
-
-**Researcher**
-MRC Biostatistics Unit
-Cambridge Institute of Public Health
-Forvie Site, Robinson Way
-Cambridge Biomedical Campus
-Cambridge, CB2 0SR
-United Kingdom
-Tel: +44 (0)1223 330300
-Email: john.reid@mrc-bsu.cam.ac.uk
+I am a scientific researcher working at the Medical Research Council's
+Biostatistics Unit in Cambridge. I keep my full curriculum vitae relatively
+up-to-date at [linkedin.com](https://uk.linkedin.com/in/john-reid-8956434).
 
 
-**CV - Resume**
+## Contact
 
-<div markdown="0">
-    <a href="{{ site.url }}/CV/" class="btn btn-info">View HTML</a>
-    <a href="{{ site.url }}/downloads/CV.pdf" class="btn btn-success">Download PDF</a>
-</div>
+MRC Biostatistics Unit<br>
+Cambridge Institute of Public Health<br>
+Forvie Site, Robinson Way<br>
+Cambridge Biomedical Campus<br>
+Cambridge, CB2 0SR<br>
+United Kingdom<br>
+**Telephone**: +44 (0)1223 330300<br>
+**Email**: john.reid@mrc-bsu.cam.ac.uk
+
 
 ## About this website
 

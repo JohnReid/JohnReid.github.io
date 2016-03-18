@@ -8,18 +8,17 @@ modified: 2016-03-18
 ---
 
 All the research projects I have undertaken have involved some amount of
-software development. I view publishing implementations of my models and
-algorithms as an integral part of the research process. It is a vital part of
-any reproducible research in my field. My languages of choice are R,
-[Stan](http://mc-stan.org), python and C++.
+software development. I view publishing implementations of models and
+algorithms as an integral part of the reproducible research process. My
+languages of choice are R, [Stan](http://mc-stan.org), python and C++.
 
 
 ## DeLorean
 -----
 
-[DeLorean](https://github.com/JohnReid/DeLorean) is an R implementation of a
-latent variable Gaussian process model I developed to **order single cells in
-pseudotime**. Inference is performed using the [Stan](http://mc-stan.org/)
+[DeLorean](https://github.com/JohnReid/DeLorean) is an R package I developed to
+**order single cells in pseudotime**. The **latent variable Gaussian process**
+model is coded and inference is performed using the [Stan](http://mc-stan.org/)
 probabilistic programming language and library.
 
 
