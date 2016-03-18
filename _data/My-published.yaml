@@ -303,4 +303,15 @@ references:
     date-parts:
       - - 2013
         - 10
+
+- id: john_reid_comparison_1994
+  type: thesis
+  title: A comparison of various neural network architectures for learning context-dependent game strategies
+  publisher: Cambridge University
+  genre: Diploma in Computer Science
+  author:
+    - literal: John Reid
+  issued:
+    date-parts:
+      - - 1994
 ...

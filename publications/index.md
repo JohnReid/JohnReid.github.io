@@ -12,7 +12,7 @@ modified: 2016-03-18
 
 <div class='panel-pub'>
 <ol>
-{% for article in site.data.journals.references %}
+{% for article in site.data.journal.references %}
     <li>
     <div class="title">
     <span class="title">{{ article.title }}</span>
@@ -40,7 +40,7 @@ modified: 2016-03-18
 </div>
 
 
-## Thesis
+## Theses
 -----
 
 <div class='panel-pub'>
