@@ -8,7 +8,7 @@ modified: 2016-03-18
 
 ## About me
 
-**Dr. John Reid** is a scientific researcher working in the field of biostatistics.
+I am a scientific researcher working in the field of biostatistics at the Medical Research Council's Biostatistics Unit in Cambridge.
 
 **Researcher**
 MRC Biostatistics Unit
@@ -33,15 +33,9 @@ Email: john.reid@mrc-bsu.cam.ac.uk
 This website is John Reid's personal academic website. John Reid is the
 copyright holder to all the contents published on this website except the
 underlying theme. If you wish to use any copyright material on this website,
-please contact me via the Email or address listed above to obtain a permission.
+please contact me via the email or address listed above to obtain a permission.
 
-This website is powered by [LYX Jekyll
-theme](https://github.com/liuyxpp/liuyxpp.github.io) which in turn is based on
-the HPSTR Jekyll Theme by [Michael Rose](https://github.com/mmistakes) and the
-Clean Blog Theme by [David Miller](https://github.com/davidtmiller/). It has
-been deployed to Github Pages at
-[http://JohnReid.github.io](http://JohnReid.github.io). If you wish to use the
-Jekyll theme of this website, please follow the guidelines below:
+This website is powered by [LYX Jekyll theme](https://github.com/liuyxpp/liuyxpp.github.io) which in turn is based on the HPSTR Jekyll Theme by [Michael Rose](https://github.com/mmistakes) and the Clean Blog Theme by [David Miller](https://github.com/davidtmiller/). It has been deployed to Github Pages at [http://JohnReid.github.io](http://JohnReid.github.io). If you wish to use the Jekyll theme of this website, please follow the guidelines below:
 
 1. Please give credit by starring [this
    project](https://github.com/JohnReid/JohnReid.github.io) and/or display this
