@@ -8,8 +8,8 @@ modified: 2016-03-18
 ---
 
 
-I work both on theoretical models of biological systems and their application
-to real-world data.
+I work on theoretical models of biological systems and their application to
+real-world data.
 
 Theoretically, I am an advocate of Bayesian non-parametric
 models such as Dirichlet processes and Gaussian processes. I also have a
