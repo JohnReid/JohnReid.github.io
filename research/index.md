@@ -35,6 +35,8 @@ trajectory within the process. Downstream analyses of the data are more
 effective when these pseudotimes are estimated well ([bioRxiv
 paper](http://biorxiv.org/content/early/2015/05/21/019588)).
 
+![Gene expression profiles under pseudotime]({{ site.url }}/images/pseudotimes.png)
+
 
 ### Efficient motif finding using suffix trees
 
@@ -46,6 +48,8 @@ state-of-the-art motif finding techniques can handle. I used a branch-and-bound
 approximation to significantly speed up one of the most popular motif finding
 methods (expectation-maximisation). This work was published in [Nucleic Acids
 Research](http://nar.oxfordjournals.org/content/39/18/e126).
+
+![STEME motif and suffix tree]({{ site.url }}/images/STEME-suffix.jpg)
 
 
 ### Transcriptional programs
@@ -60,3 +64,5 @@ structure in the form of transcriptional programs. In this application the
 transcriptional programs are analagous to topics in the original machine
 learning application ([BMC Bioinformatics
 paper](http://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-10-218)).
+
+![Latent transcriptional programs]({{ site.url }}/images/TP-programs.jpg)
