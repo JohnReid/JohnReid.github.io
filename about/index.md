@@ -9,10 +9,12 @@ modified: 2016-03-18
 ## About me
 
 I am a scientific researcher working at the Medical Research Council's
-Biostatistics Unit in Cambridge. I keep my full curriculum vitae relatively
-up-to-date at [linkedin.com](https://uk.linkedin.com/in/john-reid-8956434).
-Before working in academia, I wrote software and consulted on middleware
-systems for financial institutions worldwide.
+[Biostatistics
+Unit](http://www.mrc-bsu.cam.ac.uk/people/in-alphabetical-order/n-to-s/john-reid/)
+in Cambridge. I keep my full curriculum vitae relatively up-to-date at
+[linkedin.com](https://uk.linkedin.com/in/john-reid-8956434).  Before working
+in academia, I wrote software and consulted on middleware systems for financial
+institutions worldwide.
 
 
 ## Contact
