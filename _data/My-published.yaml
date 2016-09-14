@@ -1,5 +1,63 @@
 ---
 references:
+- id: reid_pseudotime_2016
+  type: article-journal
+  title: 'Pseudotime estimation: deconfounding single cell time series'
+  container-title: Bioinformatics
+  page: btw372
+  source: bioinformatics.oxfordjournals.org
+  abstract: >-
+    Motivation: Repeated cross-sectional time series single cell data confound
+    several sources of variation, with contributions from measurement noise,
+    stochastic cell-to-cell variation and cell progression at different rates.
+    Time series from single cell assays are particularly susceptible to
+    confounding as the measurements are not averaged over populations of cells.
+    When several genes are assayed in parallel these effects can be estimated
+    and corrected for under certain smoothness assumptions on cell progression.
+
+    Results: We present a principled probabilistic model with a Bayesian
+    inference scheme to analyse such data. We demonstrate our method’s utility
+    on public microarray, nCounter and RNA-seq datasets from three organisms.
+    Our method almost perfectly recovers withheld capture times in an
+    Arabidopsis dataset, it accurately estimates cell cycle peak times in a
+    human prostate cancer cell line and it correctly identifies two precocious
+    cells in a study of paracrine signalling in mouse dendritic cells.
+    Furthermore, our method compares favourably with Monocle, a state-of-the-art
+    technique. We also show using held-out data that uncertainty in the temporal
+    dimension is a common confounder and should be accounted for in analyses of
+    repeated cross-sectional time series.
+
+    Availability and Implementation: Our method is available on CRAN in the
+    DeLorean package.
+
+    Contact: john.reid@mrc-bsu.cam.ac.uk
+
+    Supplementary information: Supplementary data are available at
+    Bioinformatics online.
+  URL: >-
+    http://bioinformatics.oxfordjournals.org/content/early/2016/07/14/bioinformatics.btw372
+  DOI: 10.1093/bioinformatics/btw372
+  ISSN: '1367-4803, 1460-2059'
+  language: en
+  author:
+    - family: Reid
+      given: John E.
+    - family: Wernisch
+      given: Lorenz
+  issued:
+    date-parts:
+      - - 2016
+        - 6
+        - 17
+  accessed:
+    date-parts:
+      - - '2016'
+        - 7
+        - 26
+  PMID: '27318198'
+  title-short: Pseudotime estimation
+  container-title-short: Bioinformatics
+
 - id: reid_steme_2014
   type: article-journal
   title: 'STEME: A Robust, Accurate Motif Finder for Large Data Sets'
