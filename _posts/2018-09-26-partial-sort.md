@@ -130,13 +130,13 @@ microbenchmark(
 {% highlight text %}
 ## Unit: microseconds
 ##                              expr     min       lq      mean   median
-##              sort(x, partial = k)  48.519  50.4535  56.58863  54.0745
-##  sort(x, partial = length(x) - k)  45.917  47.8625  69.91193  51.5180
-##                           sort(x) 150.565 153.2750 166.08672 157.8470
-##        uq      max neval cld
-##   60.3065   95.318   100  a 
-##   58.7090 1611.616   100  a 
-##  168.2365  228.818   100   b
+##              sort(x, partial = k)  48.306  50.3885  54.83153  53.0555
+##  sort(x, partial = length(x) - k)  46.132  47.6240  51.49206  49.3120
+##                           sort(x) 151.205 153.8320 162.39980 155.8230
+##        uq     max neval cld
+##   55.1730  99.488   100  a 
+##   51.8935 100.923   100  a 
+##  158.5285 260.823   100   b
 {% endhighlight %}
 
 
@@ -159,7 +159,7 @@ We choose 50 problem sizes ($n$) ranging from 100,000 to 100,000,000.
 
 
 {% highlight r %}
-problem_sizes <- round(10^(seq(5, 6, length.out = 20)))
+problem_sizes <- round(10^(seq(5, 8, length.out = 50)))
 {% endhighlight %}
 
 Sample data to test with.

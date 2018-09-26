@@ -155,7 +155,7 @@ We choose 50 problem sizes ($n$) ranging from 100,000 to 100,000,000.
 
 ```{r problemSizes}
 
-problem_sizes <- round(10^(seq(5, 6, length.out = 20)))
+problem_sizes <- round(10^(seq(5, 8, length.out = 50)))
 
 ```
 
