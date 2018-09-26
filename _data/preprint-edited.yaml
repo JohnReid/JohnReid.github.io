@@ -1,0 +1,223 @@
+---
+references:
+
+- id: Hawkins-HookerProjectionlayersimprove2018
+  type: article-journal
+  title: Projection layers improve deep learning models of regulatory DNA function
+  container-title: bioRxiv
+  page: '412734'
+  source: www.biorxiv.org
+  abstract: >-
+    With the increasing application of deep learning methods to the modelling of
+    regulatory DNA sequences has come an interest in exploring what types of
+    architecture are best suited to the domain. Networks designed to predict
+    many functional characteristics of noncoding DNA in a multitask framework
+    have to recognise a large number of motifs and as a result benefit from
+    large numbers of convolutional filters in the first layer. The use of large
+    first layers in turn motivates an exploration of strategies for addressing
+    the sparsity of output and possibility for overfitting that result. To this
+    end we propose the use of a dimensionality-reducing linear projection layer
+    after the initial motif-recognising convolutions. In experiments with a
+    reduced version of the DeepSEA dataset we find that inserting this layer in
+    combination with dropout into convolutional and convolutional-recurrent
+    architectures can improve predictive performance across a range of first
+    layer sizes. We further validate our approach by incorporating the
+    projection layer into a new convolutional-recurrent architecture which
+    achieves state of the art performance on the full DeepSEA dataset. Analysis
+    of the learned projection weights shows that the inclusion of this layer
+    simplifies the network's internal representation of the occurrence of
+    motifs, notably by projecting features representing forward and
+    reverse-complement motifs to similar positions in the lower dimensional
+    feature space output by the layer.
+  URL: 'https://www.biorxiv.org/content/early/2018/09/10/412734'
+  DOI: 10.1101/412734
+  language: en
+  author:
+    - family: Hawkins-Hooker
+      given: Alex
+    - family: Kenlay
+      given: Henry
+    - family: Reid
+      given: John
+  issued:
+    - year: 2018
+      month: 9
+      day: 10
+  accessed:
+    - year: 2018
+      month: 9
+      day: 26
+
+- id: SinghMachinelearningbased2018
+  type: article-journal
+  title: >-
+    Machine learning based classification of cells into chronological stages
+    using single-cell transcriptomics.
+  container-title: bioRxiv
+  page: '303214'
+  source: www.biorxiv.org
+  abstract: >-
+    Age-associated deterioration of cellular physiology leads to pathological
+    conditions. The ability to detect premature aging could provide a window for
+    preventive therapies against age-related diseases. However, the techniques
+    for determining cellular age are limited, as they rely on a limited set of
+    histological markers and lack predictive power. Here, we implement GERAS
+    (GEnetic Reference for Age of Single-cell), a machine learning based
+    framework capable of assigning individual cells to chronological stages
+    based on their transcriptomes. GERAS displays greater than 90% accuracy in
+    classifying the chronological stage of zebrafish and human pancreatic cells.
+    The framework demonstrates robustness against biological and technical
+    noise, as evaluated by its performance on independent samplings of
+    single-cells. Additionally, GERAS determines the impact of differences in
+    calorie intake and BMI on the aging of zebrafish and human pancreatic cells,
+    respectively. We further harness the predictive power of GERAS to identify
+    genome-wide molecular factors that correlate with aging. We show that one of
+    these factors, junb, is necessary to maintain the proliferative state of
+    juvenile beta-cells. Our results showcase the applicability of a machine
+    learning framework to classify the chronological stage of heterogeneous cell
+    populations, while enabling to detect pro-aging factors and candidate genes
+    associated with aging.
+  URL: 'https://www.biorxiv.org/content/early/2018/04/17/303214'
+  DOI: 10.1101/303214
+  language: en
+  author:
+    - family: Singh
+      given: Sumeet Pal
+    - family: Janjuha
+      given: Sharan
+    - family: Chaudhuri
+      given: Samata
+    - family: Reinhardt
+      given: Susanne
+    - family: Dietz
+      given: Sevina
+    - family: Eugster
+      given: Anne
+    - family: Bilgin
+      given: Halil
+    - family: Korkmaz
+      given: Selçuk
+    - family: Reid
+      given: John E.
+    - family: Zararsiz
+      given: Gökmen
+    - family: Ninov
+      given: Nikolay
+  issued:
+    - year: 2018
+      month: 4
+      day: 17
+  accessed:
+    - year: 2018
+      month: 9
+      day: 26
+
+- id: penfold_nonparametric_2017
+  type: article-journal
+  title: >-
+    Nonparametric Bayesian inference of transcriptional branching and
+    recombination identifies regulators of early human germ cell development
+  container-title: bioRxiv
+  page: '167684'
+  source: www.biorxiv.org
+  abstract: >-
+    During embryonic development, cells undertake a series of cell fate
+    decisions to form a complete organism, epitomising a branching process; in
+    some instances, these decisions may be reversible, particularly during the
+    onset of disease, exemplifying a recombination process. Single cell
+    transcriptomics provide a rich resource to explore the temporal progression
+    of bifurcations in gene activity, and thus elucidate mechanisms of cell fate
+    decisions. However, identification of transcriptional branching or
+    recombination poses a major statistical challenge. Here, we have developed a
+    comprehensive nonparametric Bayesian approach to the inference of branching
+    and recombination, in the form of branch-recombinant Gaussian Processes
+    (B-RGPs). We use B-RGPs to infer transcriptional branching that occurs
+    during early human development as primordial germ cells (PGCs), the
+    precursors of sperm and egg, are specified in the developing embryo. Using
+    our approach, we identify known master regulators of human PGC development,
+    and predict roles for a variety of signalling pathways and genetic
+    regulators. By concentrating on the earliest signalling events, we
+    identified an antagonistic role for FGF receptor (FGFR) signalling pathway
+    in the acquisition of competence for human PGC fate. Indeed, the
+    experimental validation of our prediction confirmed that pharmacological
+    blocking of FGFR or its downstream effectors (MEK, PI3K and JAK) enhanced
+    the competency for PGC fate in vitro. Thus, B-RGPs represent a powerful and
+    flexible data driven approach for dissecting the temporal dynamics of cell
+    fate decisions, providing unique insights into the mechanisms of early
+    embryogenesis.
+  URL: 'http://www.biorxiv.org/content/early/2017/07/24/167684'
+  DOI: 10.1101/167684
+  language: en
+  author:
+    - family: Penfold
+      given: Christopher Andrew
+    - family: Sybirna
+      given: Anastasiya
+    - family: Reid
+      given: John
+    - family: Huang
+      given: Yun
+    - family: Wernisch
+      given: Lorenz
+    - family: Ghahramani
+      given: Zoubin
+    - family: Grant
+      given: Murray
+    - family: Surani
+      given: M. Azim
+  issued:
+    - year: 2017
+      month: 7
+      day: 24
+  accessed:
+    - year: 2017
+      month: 7
+      day: 25
+
+- id: Ish-HorowiczMutualInformationEstimation2017
+  type: article-journal
+  title: >-
+    Mutual Information Estimation For Transcriptional Regulatory Network
+    Inference
+  container-title: bioRxiv
+  page: '132647'
+  source: biorxiv.org
+  abstract: >-
+    Mutual information-based network inference algorithms are an important tool
+    in the reverse-engineering of transcriptional regulatory networks, but all
+    rely on estimates of the mutual information between the expression of pairs
+    of genes. Various methods exist to compute estimates of the mutual
+    information, but none have been firmly established as optimal for network
+    inference. The performance of 9 mutual information estimation methods are
+    compared using three popular network inference algorithms: CLR, MRNET and
+    ARACNE. The performance of the estimators is compared on one synthetic and
+    two real datasets. For estimators that discretise data, the effect of
+    discretisation parameters are also studied in detail. Implementations of 5
+    estimators are provided in parallelised C++ with an R interface. These are
+    faster than alternative implementations, with reductions in computation time
+    up to a factor of 3,500. The B-spline estimator consistently performs well
+    on real and synthetic datasets. CLR was found to be the best performing
+    inference algorithm, corroborating previous results indicating that it is
+    the state of the art mutual inference algorithm. It is also found to be
+    robust to the mutual information estimation method and their parameters.
+    Furthermore, when using an estimator that discretises expression data, using
+    N 1/3 bins for N samples gives the most accurate inferred network. This
+    contradicts previous findings that suggested using N 1/2 bins.
+  URL: 'http://biorxiv.org/content/early/2017/05/01/132647'
+  DOI: 10.1101/132647
+  language: en
+  author:
+    - family: Ish-Horowicz
+      given: Jonathan
+    - family: Reid
+      given: John
+  issued:
+    - year: 2017
+      month: 5
+      day: 1
+  accessed:
+    - year: 2017
+      month: 5
+      day: 19
+
+...

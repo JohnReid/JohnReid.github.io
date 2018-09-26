@@ -75,9 +75,8 @@ references:
   author:
     - literal: John Reid
   issued:
-    date-parts:
-      - - 2013
-        - 10
+    - year: 2013
+      month: 10
 
 - id: john_reid_comparison_1994
   type: thesis
@@ -89,6 +88,5 @@ references:
   author:
     - literal: John Reid
   issued:
-    date-parts:
-      - - 1994
+    - year: 1994
 ...
