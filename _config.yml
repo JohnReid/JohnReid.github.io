@@ -42,7 +42,7 @@ timezone:    Europe/London
 future:      true
 highlighter: rouge
 markdown:    kramdown
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-paginate
 sass:
@@ -63,9 +63,9 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..3
-  enable_coderay: true
+  syntax_highlighter: coderay
 
-  coderay:
+  syntax_highlighter_opts:
     coderay_line_numbers: inline
     coderay_line_numbers_start: 1
     coderay_tab_width: 4
