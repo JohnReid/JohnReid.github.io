@@ -2,31 +2,35 @@
 title: Retrieving the k largest (or smallest) elements in R
 author: John Reid
 output: html_document
+layout: post
+comment: true
 ---
 
 ```{r compileMe, echo = FALSE, eval = FALSE}
 
 # Execute this block to render the document
-rmarkdown::render('partial-sort.Rmd')
+source('knit-post.R')
+knit_post('partial-sort.Rmd')
 
 ```
 
 
 A common problem in computer science is selecting the $k$ largest (or smallest)
-elements from an unsorted list containing $n$ elements. This is a form of
-[partition-based
-selection](https://en.wikipedia.org/wiki/Selection_algorithm#Partition-based_selection).
-For example, when computing k-nearest-neighbour distances, we first calculate all the
-pairwise distances between samples, then for each sample we select the $k$
-closest distances. Too often this is implemented as
+elements from an unsorted list containing $n$ elements.
+
+This is a form of [partition-based
+selection]( https://en.wikipedia.org/wiki/Selection_algorithm#Partition-based_selection).
+For example, when computing k-nearest-neighbour distances, we first calculate
+all the pairwise distances between samples, then for each sample we select the
+$k$ closest distances. In R this is implemented too often as
 
 ```{r badKNN, eval = FALSE}
 sort(dists)[1:k]
 ```
 
 which is correct but does not scale well. It sorts the entire vector `dists`
-before selecting the first $k$ elements. As the number of samples grows this is
-inefficient as the `sort()` call runs in $\mathcal{O}(n \log n)$ time.
+before selecting the first $k$ elements. As the number of elements $n$ grows
+this is inefficient as the `sort()` call runs in $\mathcal{O}(n \log n)$ time.
 Partition-based selection algorithms do not sort the entire list nor the
 selected elements. They run in $\mathcal{O}(n + k \log k)$ resulting in savings
 of a factor of $\log n$.
@@ -151,7 +155,7 @@ We choose 50 problem sizes ($n$) ranging from 100,000 to 100,000,000.
 
 ```{r problemSizes}
 
-problem_sizes <- round(10^(seq(5, 8, length.out = 50)))
+problem_sizes <- round(10^(seq(5, 6, length.out = 20)))
 
 ```
 
@@ -198,7 +202,7 @@ sort(x, partial = k, index.return = TRUE)
 
 ```
 
-One possible solution is to find the `k`'th largest element by partition-based
+One possible solution is to find the $k$'th largest element by partition-based
 selection and then to run through the data again to locate those elements that
 are less than or equal to it.
 
