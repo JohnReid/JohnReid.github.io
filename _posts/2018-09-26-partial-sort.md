@@ -12,8 +12,8 @@ comment: true
 A common problem in computer science is selecting the $k$ largest (or smallest)
 elements from an unsorted list containing $n$ elements.
 
-This is a form of [partition-based
-selection]( https://en.wikipedia.org/wiki/Selection_algorithm#Partition-based_selection).
+This is a form of [partition-based selection](
+https://en.wikipedia.org/wiki/Selection_algorithm#Partition-based_selection).
 For example, when computing k-nearest-neighbour distances, we first calculate
 all the pairwise distances between samples, then for each sample we select the
 $k$ closest distances. In R this is implemented too often as
@@ -30,7 +30,7 @@ Partition-based selection algorithms do not sort the entire list nor the
 selected elements. They run in $\mathcal{O}(n + k \log k)$ resulting in savings
 of a factor of $\log n$.
 
-The statistical programming language R has an in-built and under-appreciated
+The statistical programming language R has an inbuilt and under-appreciated
 partial sorting implementation that can help tremendously. We showcase,
 benchmark and discuss this functionality here.
 
@@ -130,13 +130,13 @@ microbenchmark(
 {% highlight text %}
 ## Unit: microseconds
 ##                              expr     min       lq      mean   median
-##              sort(x, partial = k)  48.306  50.3885  54.83153  53.0555
-##  sort(x, partial = length(x) - k)  46.132  47.6240  51.49206  49.3120
-##                           sort(x) 151.205 153.8320 162.39980 155.8230
+##              sort(x, partial = k)  48.626  50.6075  54.18525  53.0365
+##  sort(x, partial = length(x) - k)  46.398  48.2705  51.06711  50.1240
+##                           sort(x) 151.349 153.8045 161.37612 156.5275
 ##        uq     max neval cld
-##   55.1730  99.488   100  a 
-##   51.8935 100.923   100  a 
-##  158.5285 260.823   100   b
+##   54.9455 101.500   100  a 
+##   52.3850  73.985   100  a 
+##  158.7200 284.841   100   b
 {% endhighlight %}
 
 

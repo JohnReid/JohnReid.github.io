@@ -9,6 +9,7 @@ comment: true
 ```{r compileMe, echo = FALSE, eval = FALSE}
 
 # Execute this block to render the document
+options(width = 60)
 source('knit-post.R')
 knit_post('partial-sort.Rmd')
 
@@ -18,8 +19,8 @@ knit_post('partial-sort.Rmd')
 A common problem in computer science is selecting the $k$ largest (or smallest)
 elements from an unsorted list containing $n$ elements.
 
-This is a form of [partition-based
-selection]( https://en.wikipedia.org/wiki/Selection_algorithm#Partition-based_selection).
+This is a form of [partition-based selection](
+https://en.wikipedia.org/wiki/Selection_algorithm#Partition-based_selection).
 For example, when computing k-nearest-neighbour distances, we first calculate
 all the pairwise distances between samples, then for each sample we select the
 $k$ closest distances. In R this is implemented too often as
@@ -35,7 +36,7 @@ Partition-based selection algorithms do not sort the entire list nor the
 selected elements. They run in $\mathcal{O}(n + k \log k)$ resulting in savings
 of a factor of $\log n$.
 
-The statistical programming language R has an in-built and under-appreciated
+The statistical programming language R has an inbuilt and under-appreciated
 partial sorting implementation that can help tremendously. We showcase,
 benchmark and discuss this functionality here.
 
