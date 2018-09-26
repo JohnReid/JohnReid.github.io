@@ -35,19 +35,17 @@ references:
     - family: Wernisch
       given: Lorenz
   issued:
-    date-parts:
-      - - 2014
-        - 3
-        - 13
+    - year: 2014
+      month: 3
+      day: 13
   accessed:
-    date-parts:
-      - - '2014'
-        - 6
-        - 2
+    - year: 2014
+      month: 6
+      day: 2
   title-short: STEME
   container-title-short: PLoS ONE
 
-- id: reid_variable_2010
+- id: ReidVariablestructuremotifs2010
   type: article-journal
   title: Variable structure motifs for transcription factor binding sites
   container-title: BMC Genomics
@@ -55,6 +53,7 @@ references:
   volume: '11'
   issue: '1'
   source: Google Scholar
+  URL: 'https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-11-30'
   author:
     - family: Reid
       given: J.
@@ -67,10 +66,9 @@ references:
     - family: Ott
       given: S.
   issued:
-    date-parts:
-      - - 2010
+    - year: 2010
 
-- id: reid_transcriptional_2009
+- id: ReidTranscriptionalprogramsModelling2009
   type: article-journal
   title: >-
     Transcriptional programs: Modelling higher order structure in
@@ -80,6 +78,8 @@ references:
   volume: '10'
   issue: '1'
   source: Google Scholar
+  URL: >-
+    https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-10-218
   author:
     - family: Reid
       given: J.
@@ -88,8 +88,7 @@ references:
     - family: Wernisch
       given: L.
   issued:
-    date-parts:
-      - - 2009
+    - year: 2009
   title-short: Transcriptional programs
 
 - id: granier_nodal_2011
@@ -156,18 +155,16 @@ references:
     - family: Collignon
       given: Jérôme
   issued:
-    date-parts:
-      - - 2011
-        - 1
-        - 15
+    - year: 2011
+      month: 1
+      day: 15
   accessed:
-    date-parts:
-      - - '2012'
-        - 11
-        - 30
+    - year: 2012
+      month: 11
+      day: 30
   container-title-short: Developmental Biology
 
-- id: koohy_alignment-free_2010
+- id: Koohyalignmentfreemodelcomparison2010
   type: article-journal
   title: An alignment-free model for comparison of regulatory sequences
   container-title: Bioinformatics
@@ -175,6 +172,7 @@ references:
   volume: '26'
   issue: '19'
   source: Google Scholar
+  URL: 'https://academic.oup.com/bioinformatics/article/26/19/2391/229951'
   author:
     - family: Koohy
       given: H.
@@ -187,10 +185,9 @@ references:
     - family: Ott
       given: S.
   issued:
-    date-parts:
-      - - 2010
+    - year: 2010
 
-- id: spensley_evolutionarily_2009
+- id: SpensleyEvolutionarilyconservedregulatory2009
   type: article-journal
   title: >-
     Evolutionarily conserved regulatory motifs in the promoter of the
@@ -200,6 +197,7 @@ references:
   volume: '21'
   issue: '9'
   source: Google Scholar
+  URL: 'http://www.plantcell.org/content/21/9/2606'
   author:
     - family: Spensley
       given: M.
@@ -216,8 +214,7 @@ references:
     - family: Carré
       given: I.A.
   issued:
-    date-parts:
-      - - 2009
+    - year: 2009
 
 - id: vance_conserved_2015
   type: article-journal
@@ -270,19 +267,17 @@ references:
     - family: Koentges
       given: Georgy
   issued:
-    date-parts:
-      - - 2015
-        - 9
-        - 4
+    - year: 2015
+      month: 9
+      day: 4
   accessed:
-    date-parts:
-      - - '2015'
-        - 9
-        - 7
+    - year: 2015
+      month: 9
+      day: 7
   PMID: '26342140'
   container-title-short: Genome Biol Evol
 
-- id: 'reid_steme:_2011'
+- id: ReidSTEMEefficientEM2011
   type: article-journal
   title: 'STEME: efficient EM to find motifs in large data sets'
   container-title: Nucleic Acids Research
@@ -290,54 +285,152 @@ references:
   volume: '39'
   issue: '18'
   source: Google Scholar
+  URL: 'https://academic.oup.com/nar/article/39/18/e126/1094881'
+  DOI: doi.org/10.1093/nar/gkr574
   author:
     - family: Reid
       given: J.E.
     - family: Wernisch
       given: L.
   issued:
-    date-parts:
-      - - 2011
+    - year: 2011
   title-short: STEME
 
-- id: reid_pseudotime_2016
+- id: 'gabasova_clusternomics:_2017-1'
+  type: article-journal
+  title: >-
+    Clusternomics: Integrative context-dependent clustering for heterogeneous
+    datasets
+  container-title: PLOS Computational Biology
+  page: e1005781
+  volume: '13'
+  issue: '10'
+  source: PLoS Journals
+  abstract: >-
+    Author summary Integrative clustering is the task of identifying groups of
+    samples by combining information from several datasets. An example of this
+    task is cancer subtyping, where we cluster tumour samples based on several
+    datasets, such as gene expression, proteomics and others. Most existing
+    algorithms assume that all such datasets share a similar cluster structure,
+    with samples outside these clusters treated as noise. The structure can,
+    however, be much more heterogeneous: some meaningful clusters may appear
+    only in some datasets. In the paper, we introduce the Clusternomics
+    algorithm that identifies groups of samples across heterogeneous datasets.
+    It models both cluster structure of individual datasets, and the global
+    structure that appears as a combination of local structures. The algorithm
+    uses probabilistic modelling to identify the groups and share information
+    across the local and global levels. We evaluated the algorithm on both
+    simulated and real world datasets, where the algorithm found clinically
+    significant clusters with different survival outcomes.
+  URL: >-
+    http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005781
+  DOI: 10.1371/journal.pcbi.1005781
+  ISSN: 1553-7358
+  author:
+    - family: Gabasova
+      given: Evelina
+    - family: Reid
+      given: John
+    - family: Wernisch
+      given: Lorenz
+  issued:
+    - year: 2017
+      month: 10
+      day: 16
+  accessed:
+    - year: 2017
+      month: 10
+      day: 30
+  title-short: Clusternomics
+  container-title-short: PLOS Computational Biology
+
+- id: PenfoldBranchrecombinantGaussianprocesses2018
+  type: article-journal
+  title: >-
+    Branch-recombinant Gaussian processes for analysis of perturbations in
+    biological time series
+  container-title: Bioinformatics
+  page: i1005-i1013
+  volume: '34'
+  issue: '17'
+  source: academic.oup.com
+  abstract: >-
+    AbstractMotivation.  A common class of behaviour encountered in the
+    biological sciences involves branching and recombination. During branching,
+    a statistical pr
+  URL: 'https://academic.oup.com/bioinformatics/article/34/17/i1005/5093256'
+  DOI: 10.1093/bioinformatics/bty603
+  ISSN: 1367-4803
+  language: en
+  author:
+    - family: Penfold
+      given: Christopher A.
+    - family: Sybirna
+      given: Anastasiya
+    - family: Reid
+      given: John E.
+    - family: Huang
+      given: Yun
+    - family: Wernisch
+      given: Lorenz
+    - family: Ghahramani
+      given: Zoubin
+    - family: Grant
+      given: Murray
+    - family: Surani
+      given: M. Azim
+  issued:
+    - year: 2018
+      month: 9
+      day: 1
+  accessed:
+    - year: 2018
+      month: 9
+      day: 26
+  container-title-short: Bioinformatics
+
+- id: StraussGPseudoRankpermutationsampler
+  type: article-journal
+  title: 'GPseudoRank: a permutation sampler for single cell orderings'
+  container-title: Bioinformatics
+  source: academic.oup.com
+  abstract: >-
+    AbstractMotivation.  A number of pseudotime methods have provided point
+    estimates of the ordering of cells for scRNA-seq data. A still limited
+    number of methods
+  URL: >-
+    https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/bty664/5059496
+  DOI: 10.1093/bioinformatics/bty664
+  language: en
+  author:
+    - family: Strauß
+      given: Magdalena E.
+    - family: Reid
+      given: John E.
+    - family: Wernisch
+      given: Lorenz
+  accessed:
+    - year: 2018
+      month: 9
+      day: 26
+  title-short: GPseudoRank
+  container-title-short: Bioinformatics
+
+- id: ReidPseudotimeestimationdeconfounding2016
   type: article-journal
   title: 'Pseudotime estimation: deconfounding single cell time series'
   container-title: Bioinformatics
-  page: btw372
-  source: bioinformatics.oxfordjournals.org
+  page: 2973-2980
+  volume: '32'
+  issue: '19'
+  source: academic.oup.com
   abstract: >-
-    Motivation: Repeated cross-sectional time series single cell data confound
-    several sources of variation, with contributions from measurement noise,
-    stochastic cell-to-cell variation and cell progression at different rates.
-    Time series from single cell assays are particularly susceptible to
-    confounding as the measurements are not averaged over populations of cells.
-    When several genes are assayed in parallel these effects can be estimated
-    and corrected for under certain smoothness assumptions on cell progression.
-
-    Results: We present a principled probabilistic model with a Bayesian
-    inference scheme to analyse such data. We demonstrate our method’s utility
-    on public microarray, nCounter and RNA-seq datasets from three organisms.
-    Our method almost perfectly recovers withheld capture times in an
-    Arabidopsis dataset, it accurately estimates cell cycle peak times in a
-    human prostate cancer cell line and it correctly identifies two precocious
-    cells in a study of paracrine signalling in mouse dendritic cells.
-    Furthermore, our method compares favourably with Monocle, a state-of-the-art
-    technique. We also show using held-out data that uncertainty in the temporal
-    dimension is a common confounder and should be accounted for in analyses of
-    repeated cross-sectional time series.
-
-    Availability and Implementation: Our method is available on CRAN in the
-    DeLorean package.
-
-    Contact: john.reid@mrc-bsu.cam.ac.uk
-
-    Supplementary information: Supplementary data are available at
-    Bioinformatics online.
-  URL: >-
-    http://bioinformatics.oxfordjournals.org/content/early/2016/07/14/bioinformatics.btw372
+    Abstract.  Motivation: Repeated cross-sectional time series single cell data
+    confound several sources of variation, with contributions from measurement
+    noise, s
+  URL: 'https://academic.oup.com/bioinformatics/article/32/19/2973/2196633'
   DOI: 10.1093/bioinformatics/btw372
-  ISSN: '1367-4803, 1460-2059'
+  ISSN: 1367-4803
   language: en
   author:
     - family: Reid
@@ -345,16 +438,13 @@ references:
     - family: Wernisch
       given: Lorenz
   issued:
-    date-parts:
-      - - 2016
-        - 6
-        - 17
+    - year: 2016
+      month: 10
+      day: 1
   accessed:
-    date-parts:
-      - - '2016'
-        - 7
-        - 26
-  PMID: '27318198'
+    - year: 2018
+      month: 9
+      day: 26
   title-short: Pseudotime estimation
   container-title-short: Bioinformatics
 ...

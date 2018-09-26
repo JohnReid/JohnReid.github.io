@@ -1,0 +1,469 @@
+---
+references:
+
+- id: StraussGPseudoRankpermutationsampler2018
+  type: article-journal
+  title: 'GPseudoRank: a permutation sampler for single cell orderings'
+  container-title: Bioinformatics
+  source: academic.oup.com
+  abstract: >-
+    AbstractMotivation.  A number of pseudotime methods have provided point
+    estimates of the ordering of cells for scRNA-seq data. A still limited
+    number of methods
+  URL: 'https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/bty664/5059496'
+  DOI: 10.1093/bioinformatics/bty664
+  language: en
+  author:
+    - family: Strauß
+      given: Magdalena E.
+    - family: Reid
+      given: John E.
+    - family: Wernisch
+      given: Lorenz
+  issued:
+    - year: 2018
+  accessed:
+    - year: 2018
+      month: 9
+      day: 26
+  title-short: GPseudoRank
+  container-title-short: Bioinformatics
+
+- id: PenfoldBranchrecombinantGaussianprocesses2018
+  type: article-journal
+  title: >-
+    Branch-recombinant Gaussian processes for analysis of perturbations in
+    biological time series
+  container-title: Bioinformatics
+  page: i1005-i1013
+  volume: '34'
+  issue: '17'
+  source: academic.oup.com
+  abstract: >-
+    AbstractMotivation.  A common class of behaviour encountered in the
+    biological sciences involves branching and recombination. During branching,
+    a statistical pr
+  URL: 'https://academic.oup.com/bioinformatics/article/34/17/i1005/5093256'
+  DOI: 10.1093/bioinformatics/bty603
+  ISSN: 1367-4803
+  language: en
+  author:
+    - family: Penfold
+      given: Christopher A.
+    - family: Sybirna
+      given: Anastasiya
+    - family: Reid
+      given: John E.
+    - family: Huang
+      given: Yun
+    - family: Wernisch
+      given: Lorenz
+    - family: Ghahramani
+      given: Zoubin
+    - family: Grant
+      given: Murray
+    - family: Surani
+      given: M. Azim
+  issued:
+    - year: 2018
+      month: 9
+      day: 1
+  accessed:
+    - year: 2018
+      month: 9
+      day: 26
+  container-title-short: Bioinformatics
+
+- id: 'gabasova_clusternomics:_2017-1'
+  type: article-journal
+  title: >-
+    Clusternomics: Integrative context-dependent clustering for heterogeneous
+    datasets
+  container-title: PLOS Computational Biology
+  page: e1005781
+  volume: '13'
+  issue: '10'
+  source: PLoS Journals
+  abstract: >-
+    Author summary Integrative clustering is the task of identifying groups of
+    samples by combining information from several datasets. An example of this
+    task is cancer subtyping, where we cluster tumour samples based on several
+    datasets, such as gene expression, proteomics and others. Most existing
+    algorithms assume that all such datasets share a similar cluster structure,
+    with samples outside these clusters treated as noise. The structure can,
+    however, be much more heterogeneous: some meaningful clusters may appear
+    only in some datasets. In the paper, we introduce the Clusternomics
+    algorithm that identifies groups of samples across heterogeneous datasets.
+    It models both cluster structure of individual datasets, and the global
+    structure that appears as a combination of local structures. The algorithm
+    uses probabilistic modelling to identify the groups and share information
+    across the local and global levels. We evaluated the algorithm on both
+    simulated and real world datasets, where the algorithm found clinically
+    significant clusters with different survival outcomes.
+  URL: 'http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005781'
+  DOI: 10.1371/journal.pcbi.1005781
+  ISSN: 1553-7358
+  author:
+    - family: Gabasova
+      given: Evelina
+    - family: Reid
+      given: John
+    - family: Wernisch
+      given: Lorenz
+  issued:
+    - year: 2017
+      month: 10
+      day: 16
+  accessed:
+    - year: 2017
+      month: 10
+      day: 30
+  title-short: Clusternomics
+  container-title-short: PLOS Computational Biology
+
+- id: reid_pseudotime_2016
+  type: article-journal
+  title: 'Pseudotime estimation: deconfounding single cell time series'
+  container-title: Bioinformatics
+  page: btw372
+  source: bioinformatics.oxfordjournals.org
+  abstract: >-
+    Motivation: Repeated cross-sectional time series single cell data confound
+    several sources of variation, with contributions from measurement noise,
+    stochastic cell-to-cell variation and cell progression at different rates.
+    Time series from single cell assays are particularly susceptible to
+    confounding as the measurements are not averaged over populations of cells.
+    When several genes are assayed in parallel these effects can be estimated
+    and corrected for under certain smoothness assumptions on cell progression.
+    Results: We present a principled probabilistic model with a Bayesian
+    inference scheme to analyse such data. We demonstrate our method’s utility
+    on public microarray, nCounter and RNA-seq datasets from three organisms.
+    Our method almost perfectly recovers withheld capture times in an
+    Arabidopsis dataset, it accurately estimates cell cycle peak times in a
+    human prostate cancer cell line and it correctly identifies two precocious
+    cells in a study of paracrine signalling in mouse dendritic cells.
+    Furthermore, our method compares favourably with Monocle, a state-of-the-art
+    technique. We also show using held-out data that uncertainty in the temporal
+    dimension is a common confounder and should be accounted for in analyses of
+    repeated cross-sectional time series.
+    Availability and Implementation: Our method is available on CRAN in the
+    DeLorean package.
+    Contact: john.reid@mrc-bsu.cam.ac.uk
+    Supplementary information: Supplementary data are available at
+    Bioinformatics online.
+  URL: 'http://bioinformatics.oxfordjournals.org/content/early/2016/07/14/bioinformatics.btw372'
+  DOI: 10.1093/bioinformatics/btw372
+  ISSN: '1367-4803, 1460-2059'
+  language: en
+  author:
+    - family: Reid
+      given: John E.
+    - family: Wernisch
+      given: Lorenz
+  issued:
+    - year: 2016
+      month: 6
+      day: 17
+  accessed:
+    - year: 2016
+      month: 7
+      day: 26
+  PMID: '27318198'
+  title-short: Pseudotime estimation
+  container-title-short: Bioinformatics
+
+- id: vance_conserved_2015
+  type: article-journal
+  title: >-
+    Conserved cis-regulatory modules control robustness in Msx1 expression at
+    single cell resolution
+  container-title: Genome Biology and Evolution
+  page: evv179
+  source: gbe.oxfordjournals.org
+  abstract: >-
+    The process of transcription is highly stochastic leading to cell-to-cell
+    variations and noise in gene expression levels. However, key essential genes
+    have to be precisely expressed at the correct amount and time to ensure
+    proper cellular development and function. Studies in yeast and bacterial
+    systems have shown that gene expression noise decreases as mean expression
+    levels increase, a relationship that is controlled by promoter DNA sequence.
+    However, the function of distal cis-regulatory modules (CRMs), an
+    evolutionary novelty of metazoans, in controlling transcriptional robustness
+    and variability is poorly understood. In this study, we used live cell
+    imaging of transfected reporters combined with a mathematical modelling and
+    statistical inference scheme, to quantify the function of conserved Msx1
+    CRMs and promoters in modulating single cell real time transcription rates
+    in C2C12 mouse myoblasts. The results show that the mean expression-noise
+    relationship is solely promoter controlled for this key pluripotency
+    regulator. In addition, we demonstrate that CRMs modulate single cell basal
+    promoter rate distributions in a graded manner across a population of cells.
+    This extends the rheostatic model of CRM action to provide a more detailed
+    understanding of CRM function at single cell resolution. We also identify a
+    novel CRM transcriptional filter function that acts to reduce intracellular
+    variability in transcription rates and show that this can be
+    phylogenetically separable from rate modulating CRM activities. These
+    results are important for understanding how the expression of key vertebrate
+    developmental transcription factors is precisely controlled both within and
+    between individual cells.
+  URL: 'http://gbe.oxfordjournals.org/content/early/2015/09/04/gbe.evv179'
+  DOI: 10.1093/gbe/evv179
+  ISSN: ', 1759-6653'
+  language: en
+  author:
+    - family: Vance
+      given: Keith W.
+    - family: Woodcock
+      given: Dan J.
+    - family: Reid
+      given: John E.
+    - family: Bretschneider
+      given: Till
+    - family: Ott
+      given: Sascha
+    - family: Koentges
+      given: Georgy
+  issued:
+    - year: 2015
+      month: 9
+      day: 4
+  accessed:
+    - year: 2015
+      month: 9
+      day: 7
+  PMID: '26342140'
+  container-title-short: Genome Biol Evol
+
+- id: 'reid_steme:_2014'
+  type: article-journal
+  title: 'STEME: A Robust, Accurate Motif Finder for Large Data Sets'
+  container-title: PLoS ONE
+  page: e90735
+  volume: '9'
+  issue: '3'
+  source: PLoS Journals
+  abstract: >-
+    Motif finding is a difficult problem that has been studied for over 20
+    years. Some older popular motif finders are not suitable for analysis of the
+    large data sets generated by next-generation sequencing. We recently
+    published an efficient approximation (STEME) to the EM algorithm that is at
+    the core of many motif finders such as MEME. This approximation allows the
+    EM algorithm to be applied to large data sets. In this work we describe
+    several efficient extensions to STEME that are based on the MEME algorithm.
+    Together with the original STEME EM approximation, these extensions make
+    STEME a fully-fledged motif finder with similar properties to MEME. We
+    discuss the difficulty of objectively comparing motif finders. We show that
+    STEME performs comparably to existing prominent discriminative motif
+    finders, DREME and Trawler, on 13 sets of transcription factor binding data
+    in mouse ES cells. We demonstrate the ability of STEME to find long
+    degenerate motifs which these discriminative motif finders do not find. As
+    part of our method, we extend an earlier method due to Nagarajan et al. for
+    the efficient calculation of motif E-values. STEME's source code is
+    available under an open source license and STEME is available via a web
+    interface.
+  URL: 'http://dx.doi.org/10.1371/journal.pone.0090735'
+  DOI: 10.1371/journal.pone.0090735
+  author:
+    - family: Reid
+      given: John E.
+    - family: Wernisch
+      given: Lorenz
+  issued:
+    - year: 2014
+      month: 3
+      day: 13
+  accessed:
+    - year: 2014
+      month: 6
+      day: 2
+  title-short: STEME
+  container-title-short: PLoS ONE
+
+- id: granier_nodal_2011
+  type: article-journal
+  title: >-
+    Nodal cis-regulatory elements reveal epiblast and primitive endoderm
+    heterogeneity in the peri-implantation mouse embryo
+  container-title: Developmental Biology
+  page: 350-362
+  volume: '349'
+  issue: '2'
+  source: ScienceDirect
+  abstract: >-
+    Nodal, a secreted factor known for its conserved functions in cell-fate
+    specification and the establishment of embryonic axes, is also required in
+    mammals to maintain the pluripotency of the epiblast, the tissue that gives
+    rise to all fetal lineages. Although Nodal is expressed as early as E3.5 in
+    the mouse embryo, its regulation and functions at pre- and peri-implantation
+    stages are currently unknown. Sensitive reporter transgenes for two Nodal
+    cis-regulatory regions, the PEE and the ASE, exhibit specific expression
+    profiles before implantation. Mutant and inhibitor studies find them
+    respectively regulated by Wnt/β-catenin signaling and Activin/Nodal
+    signaling, and provide evidence for localized and heterogeneous activities
+    of these pathways in the inner cell mass, the epiblast and the primitive
+    endoderm. These studies also show that Nodal and its prime effector, FoxH1,
+    are not essential to preimplantation Activin/Nodal signaling. Finally, a
+    strong upregulation of the ASE reporter in implanting blastocysts correlates
+    with a downregulation of the pluripotency factor Nanog in the maturing
+    epiblast. This study uncovers conservation in the mouse blastocyst of
+    Wnt/β-catenin and Activin/Nodal-dependent activities known to govern Nodal
+    expression and the establishment of polarity in the blastula of other
+    deuterostomes. Our results indicate that these pathways act early on to
+    initiate distinct cell-specification processes in the ICM derivatives. Our
+    data also suggest that the activity of the Activin/Nodal pathway is dampened
+    by interactions with the molecular machinery of pluripotency until just
+    before implantation, possibly delaying cell-fate decisions in the mouse
+    embryo.
+  URL: 'http://www.sciencedirect.com/science/article/pii/S0012160610011747'
+  DOI: 10.1016/j.ydbio.2010.10.036
+  ISSN: 0012-1606
+  author:
+    - family: Granier
+      given: Céline
+    - family: Gurchenkov
+      given: Vasily
+    - family: Perea-Gomez
+      given: Aitana
+    - family: Camus
+      given: Anne
+    - family: Ott
+      given: Sascha
+    - family: Papanayotou
+      given: Costis
+    - family: Iranzo
+      given: Julian
+    - family: Moreau
+      given: Anne
+    - family: Reid
+      given: John
+    - family: Koentges
+      given: Georgy
+    - family: Sabéran-Djoneidi
+      given: Délara
+    - family: Collignon
+      given: Jérôme
+  issued:
+    - year: 2011
+      month: 1
+      day: 15
+  accessed:
+    - year: 2012
+      month: 11
+      day: 30
+  container-title-short: Developmental Biology
+
+- id: 'reid_steme:_2011'
+  type: article-journal
+  title: 'STEME: efficient EM to find motifs in large data sets'
+  container-title: Nucleic Acids Research
+  page: e126–e126
+  volume: '39'
+  issue: '18'
+  source: Google Scholar
+  author:
+    - family: Reid
+      given: J.E.
+    - family: Wernisch
+      given: L.
+  issued:
+    - year: 2011
+  title-short: STEME
+  URL: 'https://academic.oup.com/nar/article/39/18/e126/1094881'
+
+- id: koohy_alignment-free_2010
+  type: article-journal
+  title: An alignment-free model for comparison of regulatory sequences
+  container-title: Bioinformatics
+  page: '2391'
+  volume: '26'
+  issue: '19'
+  source: Google Scholar
+  author:
+    - family: Koohy
+      given: H.
+    - family: Dyer
+      given: N.P.
+    - family: Reid
+      given: J.E.
+    - family: Koentges
+      given: G.
+    - family: Ott
+      given: S.
+  issued:
+    - year: 2010
+  URL: 'https://academic.oup.com/bioinformatics/article/26/19/2391/229951'
+
+- id: reid_variable_2010
+  type: article-journal
+  title: Variable structure motifs for transcription factor binding sites
+  container-title: BMC Genomics
+  page: '30'
+  volume: '11'
+  issue: '1'
+  source: Google Scholar
+  author:
+    - family: Reid
+      given: J.
+    - family: Evans
+      given: K.
+    - family: Dyer
+      given: N.
+    - family: Wernisch
+      given: L.
+    - family: Ott
+      given: S.
+  issued:
+    - year: 2010
+  URL: 'https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-11-30'
+
+- id: reid_transcriptional_2009
+  type: article-journal
+  title: >-
+    Transcriptional programs: Modelling higher order structure in
+    transcriptional control
+  container-title: BMC Bioinformatics
+  page: '218'
+  volume: '10'
+  issue: '1'
+  source: Google Scholar
+  author:
+    - family: Reid
+      given: J.
+    - family: Ott
+      given: S.
+    - family: Wernisch
+      given: L.
+  issued:
+    - year: 2009
+  title-short: Transcriptional programs
+  URL: 'https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-10-218'
+
+- id: spensley_evolutionarily_2009
+  type: article-journal
+  title: >-
+    Evolutionarily conserved regulatory motifs in the promoter of the
+    Arabidopsis clock gene LATE ELONGATED HYPOCOTYL
+  container-title: The Plant Cell Online
+  page: 2606–2623
+  volume: '21'
+  issue: '9'
+  source: Google Scholar
+  author:
+    - family: Spensley
+      given: M.
+    - family: Kim
+      given: J.Y.
+    - family: Picot
+      given: E.
+    - family: Reid
+      given: J.
+    - family: Ott
+      given: S.
+    - family: Helliwell
+      given: C.
+    - family: Carré
+      given: I.A.
+  issued:
+    - year: 2009
+  URL: 'http://www.plantcell.org/content/21/9/2606'
+
+...
