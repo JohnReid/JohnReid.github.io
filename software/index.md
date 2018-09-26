@@ -4,26 +4,27 @@ title: Software
 description: ""
 header-img: images/P1030227.jpg
 comments: false
-modified: 2016-03-18
+modified: 2018-09-26
 ---
 
 All the research projects I have undertaken have involved some amount of
 software development. I view publishing implementations of models and
 algorithms as an integral part of the reproducible research process. My
-languages of choice are R, [Stan](http://mc-stan.org), python and C++.
+languages of choice are TensorFlow, R, [Stan](http://mc-stan.org), python and
+C++.
 
+------
 
 ## DeLorean
------
 
 [DeLorean](https://github.com/JohnReid/DeLorean) is an R package I developed to
 **order single cells in pseudotime**. The **latent variable Gaussian process**
 model is coded and inference is performed using the [Stan](http://mc-stan.org/)
 probabilistic programming language and library.
 
+------
 
 ## STEME
------
 
 [STEME](https://github.com/JohnReid/STEME) is a C++ implementation of a
 branch-and-bound algorithm I developed to speed up the Expectation-Maximisation
@@ -31,9 +32,9 @@ algorithm for **finding motifs** in biological sequences. It makes heavy use of
 the [SeqAn](http://www.seqan.de/) library for sequence analysis. In particular
 most of the computational savings result from the use of **suffix trees**.
 
+------
 
 ## pybool
------
 
 [pybool](https://github.com/JohnReid/pybool) is a python package that infers
 **Boolean regulatory networks** given time course expression data under
@@ -42,18 +43,18 @@ about the presence or absence of regulatory connections can be incorporated
 into the inference. Inference is performed in parallel allowing larger networks
 to be inferred on clusters.
 
+------
 
 ## HMM
------
 
 [HMM](https://github.com/JohnReid/HMM) is a C++ library with a python interface
 that relies on templated generic programming techniques to efficiently
 implement the Baum-Welch and Viterbi algorithms for **hidden Markov models**.
 Markov models of any (reasonable) order are supported.
 
+------
 
 ## infpy
------
 
 [infpy](https://github.com/JohnReid/infpy) is a python library that implements
 various machine learning inference algorithms and models. In particular it has
@@ -63,18 +64,18 @@ programs work.  It also contains a python implementation of **Gaussian
 processes**. The implementation focusses on ease of composition of kernels and
 MAP inference of kernel parameters.
 
+------
 
 ## biopsy
------
 
 [biopsy](https://github.com/JohnReid/biopsy) is a C++ library with a python
 interface that implements the **phylogenetic transcription factor binding
 scanning** algorithms developed in my thesis. It contains a templated generic
 implementation of the maximal chain algorithm that is integral to this work.
 
+------
 
 ## pyicl
------
 
 [pyicl](https://github.com/JohnReid/pyicl) is a python interface to the
 [Boost interval container library](http://www.boost.org/doc/libs/release/libs/icl/).

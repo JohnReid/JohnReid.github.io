@@ -1,21 +1,22 @@
 ---
 layout: page
 title: Research Interests
-description: "Non-parametric Bayes &amp; Regulatory networks"
+description: "Non-parametric Bayes &amp; regulatory networks"
 header-img: images/DSC00346.jpg
 comments: false
-modified: 2016-03-18
+modified: 2018-09-26
 ---
 
 
 I work on theoretical models of biological systems and their application to
 real-world data.
 
-Theoretically, I am an advocate of Bayesian non-parametric
-models such as Dirichlet processes and Gaussian processes. I also have a
-background in biological sequence analysis, in particular locating
-transcription factor binding sites and inferring motifs that represent their
-binding preferences.
+I am an advocate of Bayesian non-parametric models such as Dirichlet processes
+and Gaussian processes. I also have a background in biological sequence
+analysis, in particular locating transcription factor binding sites and
+inferring motifs that represent their binding preferences. More recently
+I have applied deep convolutional networks to genomic sequences to
+predict epigenetic marks.
 
 In terms of applications, I mainly work with
 transcriptome data, most recently this has been single-cell expression data in
@@ -23,6 +24,7 @@ developmental systems and also with transcription binding location data (e.g.
 ChIP-seq).  I am interested in using these data to infer genetic regulatory
 networks.
 
+------
 
 ### Ordering single cells in pseudotime
 
@@ -37,6 +39,7 @@ paper](http://biorxiv.org/content/early/2015/05/21/019588)).
 
 ![Gene expression profiles under pseudotime]({{ site.url }}/images/pseudotimes.png)
 
+------
 
 ### Efficient motif finding using suffix trees
 
@@ -51,6 +54,7 @@ Research](http://nar.oxfordjournals.org/content/39/18/e126).
 
 ![STEME motif and suffix tree]({{ site.url }}/images/STEME-suffix.jpg)
 
+------
 
 ### Transcriptional programs
 
