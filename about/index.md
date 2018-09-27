@@ -16,6 +16,10 @@ at Cambridge University. I keep my full curriculum vitae relatively up-to-date a
 in academia, I wrote software and consulted on middleware systems for financial
 institutions worldwide.
 
+<p align="center">
+  <img width='40%' src="/images/avatar.jpg"/>
+</p>
+
 
 ## Contact
 
