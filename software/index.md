@@ -10,7 +10,7 @@ modified: 2018-09-26
 All the research projects I have undertaken have involved some amount of
 software development. I view publishing implementations of models and
 algorithms as an integral part of the reproducible research process. My
-languages of choice are TensorFlow, R, [Stan](http://mc-stan.org), python and
+tools of choice are TensorFlow, R, [Stan](http://mc-stan.org), python and
 C++.
 
 ------

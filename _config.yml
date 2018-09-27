@@ -11,7 +11,7 @@ excerpt_separator: "<!--more-->"
 # Owner/author information
 owner:
   name:           John Reid
-  avatar:         avatar.jpg
+  avatar:         images/avatar.jpg
   bio: >
       Dr. John Reid is a researcher working in the fields of biostatistics at
       the MRC Biostatistics Unit in Cambridge, UK.
@@ -73,4 +73,7 @@ kramdown:
     coderay_css: class
 
 include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "rmarkdown"]
+exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock",
+          "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp",
+          "less", "*.sublime-project", "*.sublime-workspace", "test", "spec",
+          "Gruntfile.js", "package.json", "node_modules", "rmarkdown"]
