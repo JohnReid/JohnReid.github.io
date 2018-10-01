@@ -3,7 +3,7 @@ layout: page
 title: About
 header-img: images/P1030249.jpg
 comments: false
-modified: 2018-09-27
+modified: 2018-10-01
 ---
 
 ## About me
@@ -40,4 +40,4 @@ In case you hadn't guessed by now, I like mountains and ski-mountaineering.  I
 also like to play chess (for Hackney Chess Club) which I do to a reasonable
 standard; I do some (mainly indoor) rock-climbing to a low standard; I play
 latin piano (only for my own amusement) and I play football. I live in North
-London with my beautiful wife and two beautiful daughters.
+London with my amazing wife and two beautiful daughters.
