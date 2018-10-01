@@ -1,6 +1,6 @@
 title:            John Reid
 description:      "John Reid is a researcher working in biostatistics."
-# disqus_shortname: JohnReid
+disqus_shortname: JohnReid
 reading_time:     true
 words_per_minute: 200
 url:                    # blank for local preview
