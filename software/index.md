@@ -11,7 +11,7 @@ All the research projects I have undertaken have involved some amount of
 software development. I view publishing implementations of models and
 algorithms as an integral part of the reproducible research process. My
 tools of choice are TensorFlow, R, [Stan](http://mc-stan.org), python and
-C++.
+C++. I would love to learn some [Julia](https://julialang.org/).
 
 ------
 
