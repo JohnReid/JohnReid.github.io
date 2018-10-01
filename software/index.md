@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Software
-description: ""
+description: "Pseudotime, suffix trees &amp probabilistic models"
 header-img: images/P1030227.jpg
-comments: false
-modified: 2018-09-26
+comments: true
+modified: 2018-10-01
 ---
 
 All the research projects I have undertaken have involved some amount of
