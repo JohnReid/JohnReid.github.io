@@ -3,10 +3,9 @@ title: Retrieving the k largest (or smallest) elements in R
 author: John Reid
 output: html_document
 layout: post
+header-img: images/IMG_2358.jpg
 comment: true
 ---
-
-
 
 
 A common problem in computer science is selecting the $k$ largest (or smallest)

@@ -7,8 +7,10 @@
 {% include head.html %}
 </head>
 
+{% include header.html %}
+
 <!-- Add this to separate blog post title from navigation bar. Otherwise ugly overlapping occurs. -->
-<p style="margin-bottom:1.5cm;"></p>
+<!-- <p style="margin-bottom:1.5cm;"></p> -->
 
 <body id="post" {% if page.image.feature %}class="feature"{% endif %}>
 
@@ -17,9 +19,16 @@
 
 {% if page.image.feature %}
 <div class="entry-header">
-  {% if page.image.credit %}<div class="image-credit">Image source: {% if page.image.creditlink %}<a href="{{ page.image.creditlink }}">{% endif %}{{ page.image.credit }}{% if page.image.creditlink %}</a>{% endif %}</div><!-- /.image-credit -->{% endif %}
+  {% if page.image.credit %}
+    <div class="image-credit">
+      Image source:
+      {% if page.image.creditlink %}<a href="{{ page.image.creditlink }}">{% endif %}
+      {{ page.image.credit }}
+      {% if page.image.creditlink %}</a>{% endif %}
+    </div><!-- /.image-credit -->
+  {% endif %}
   <div class="entry-image">
-    <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }}">
+    <img src="{{ site.url }}/{{ page.image.feature }}" alt="{{ page.title }}">
   </div><!-- /.entry-image -->
 </div><!-- /.entry-header -->
 {% endif %}
@@ -28,11 +37,12 @@
   <article class="hentry">
     <header class="header-title">
       <div class="header-title-wrap">
-        {% if page.link %}
-          <h1 class="entry-title"><i class="fa fa-bookmark permalink"></i> <a href="{{ page.link }}">{{ page.title }}</a></h1>
-        {% else %}
-          <h1 class="entry-title">{{ page.title }}</h1>
-        {% endif %}
+        <!-- Don't repeat the post title now that we are using the _includes/header.html -->
+        <!-- {% if page.link %} -->
+        <!--   <h1 class="entry-title"><i class="fa fa-bookmark permalink"></i> <a href="{{ page.link }}">{{ page.title }}</a></h1> -->
+        <!-- {% else %} -->
+        <!--   <h1 class="entry-title">{{ page.title }}</h1> -->
+        <!-- {% endif %} -->
         <h2><span class="entry-date date published"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></span></h2>
         {% if site.reading_time %}
         <p class="entry-reading-time">
