@@ -31,7 +31,7 @@ Deep convolutional neural network models of genomic sequence capture
 transcription factor binding sites and other sequence features using
 convolutional features in their initial layer. Typically hundreds or thousands
 of filters are necessary for optimal predictive performance. Thus the output of
-the initial layer is typically high-dimensional and sparse. We designed
+the initial layer is often high-dimensional and sparse. We designed
 and evaluated projection layers, a method to project these internal sparse
 high-dimensional features into lower-dimensional dense representations. We
 found they improved performance and training times, suggesting they could be
