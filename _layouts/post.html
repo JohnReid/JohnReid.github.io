@@ -7,6 +7,9 @@
 {% include head.html %}
 </head>
 
+<!-- Add this to separate blog post title from navigation bar. Otherwise ugly overlapping occurs. -->
+<p style="margin-bottom:1.5cm;"></p>
+
 <body id="post" {% if page.image.feature %}class="feature"{% endif %}>
 
 {% include browser-upgrade.html %}
