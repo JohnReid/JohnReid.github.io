@@ -3,7 +3,7 @@ title: Retrieving the k largest (or smallest) elements in R
 author: John Reid
 output: html_document
 layout: post
-header-img: images/IMG_2358.jpg
+header-img: images/IMG_2271.jpg
 comment: true
 ---
 
