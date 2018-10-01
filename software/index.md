@@ -2,7 +2,7 @@
 layout: page
 title: Software
 description: "Pseudotime, suffix trees &amp probabilistic models"
-header-img: images/P1030227.jpg
+header-img: images/IMG_2395.jpg
 comments: true
 modified: 2018-10-01
 ---

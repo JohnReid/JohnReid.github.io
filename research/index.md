@@ -2,7 +2,7 @@
 layout: page
 title: Research Interests
 description: "Deep learning, non-parametric Bayes &amp clustering"
-header-img: images/DSC00346.jpg
+header-img: images/IMG_2294.jpg
 comments: false
 modified: 2018-10-01
 ---

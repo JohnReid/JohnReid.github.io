@@ -2,9 +2,9 @@
 layout: page
 title: Publications
 description: "Peer-reviewed, preprints and theses"
-header-img: images/DSC00372.jpg
+header-img: images/IMG_2358.jpg
 comments: false
-modified: 2018-09-27
+modified: 2018-10-01
 ---
 
 A more up-to-date list of publications may be found on my [Google Scholar
