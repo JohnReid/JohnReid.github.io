@@ -33,6 +33,9 @@ The statistical programming language R has an inbuilt and under-appreciated
 partial sorting implementation that can help tremendously. We showcase,
 benchmark and discuss this functionality here.
 
+<!-- Control how much is shown as an excerpt. -->
+<!--more-->
+
 
 ## Set up
 

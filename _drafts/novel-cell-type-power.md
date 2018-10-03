@@ -1202,14 +1202,16 @@ references:
   ISSN: 1474-760X
 ...
 
-Discovery of novel cell types
-=============================
+To the best of my knowledge power calculations for the design of experiments
+designed to discover novel cell types are not described in the literature. Here
+we discuss some related work in the differential expression context and cite
+examples of studies that did uncover novel cell types.
 
-Here we discuss estimates of required sample sizes for the discovery of
-novel cell types in single cell RNA-sequencing.
+<!-- Control how much is shown as an excerpt. -->
+<!--more-->
 
-Theory
-======
+
+## Theory
 
 Power calculations for single cell experiments to discover novel cell
 types are thin on the ground. We summarise some related work here.
@@ -1231,8 +1233,8 @@ types are thin on the ground. We summarise some related work here.
     emprirical study of sample size requirements for differential
     expression in single cell data.
 
-Applications
-============
+
+## Applications
 
 We summarise some studies (mainly sourced from Andrews and
 Hemberg @AndrewsIdentifyingcellpopulations2018).
