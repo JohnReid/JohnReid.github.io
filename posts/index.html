@@ -7,7 +7,7 @@ comments: false
 modified: 2018-09-26
 ---
 
-{% for post in site.posts %}
+{% for post in site.posts reversed %}
     {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
     {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
     {% capture the_date %}{{ post.date | date: "%Y-%m-%d" }}{% endcapture %}
