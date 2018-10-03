@@ -6,7 +6,7 @@ words_per_minute: 200
 url:                    # blank for local preview
 # url: <website>         # for production
 header-img: images/DSC00190.jpg
-excerpt_separator: "<!--more-->"
+excerpt_separator: "<!--more-->"  # Control how much of a post is shown as an excerpt
 
 # Owner/author information
 owner:
