@@ -7,18 +7,25 @@ header-img: images/IMG_2393.jpg
 comment: true
 ---
 
+Estimating expectations with respect to high-dimensional multimodal
+distributions is difficult. Here we describe an
+[implementation](https://github.com/JohnReid/HAIS) of Hamiltonian annealed
+importance sampling in TensorFlow and compare it to other annealed importance
+sampling implementations.
+
+<!-- Control how much is shown as an excerpt. -->
+<!--more-->
+
+
+## Introduction
 
 [Radford Neal showed](http://arxiv.org/abs/physics/9803008) how to use
 annealing techniques to define importance samplers suitable for complex
 multimodal distributions. [Sohl-Dickstein and Culpepper
 extended](http://arxiv.org/abs/1205.1925) his work by demonstrating the utility
 of Hamiltonian dynamics for the transition kernels between the annealing
-distributions. Here we describe an
-[implementation](https://github.com/JohnReid/HAIS) of this method in
-TensorFlow.
+distributions.
 
-
-## Background
 
 ### Importance Sampling
 
@@ -43,18 +50,71 @@ will give $\hat{\mu}_q$ infinite variance.
 ### Annealed Importance Sampling
 
 Finding good importance distributions when $X$ is high-dimensional and/or $p$
-is multimodal can be difficult. [Annealed importance
-sampling](http://arxiv.org/abs/physics/9803008) (AIS) can alleviate this issue
-by annealing smoothly from a simple distribution to a good or ideal importance
-distribution.
+is multimodal can be difficult. This makes the variance of $\hat{\mu}_q$
+difficult to control. [Annealed importance
+sampling](http://arxiv.org/abs/physics/9803008) (AIS) can alleviate this issue.
+AIS produces importance weighted samples from an unnormalised target distribution
+$p_0$ by annealing towards it from some other distribution $p_N$. For example,
+
+$$p_n(x) = p_0(x)^{\beta_n} p_N(x)^{1-\beta_n}$$
+
+where $1 = \beta_0 > \beta_1 > \dots > \beta_N = 0$. To implement AIS we must be
+able to
+
+  * sample from $p_N$
+  * evaluate each (potentially unnormalised) $p_n$
+  * simulate a Markov transition $T_n$ for each $1 \le n \le N-1$ that leaves $p_n$ invariant
 
 
 ### Hamiltonian Annealed Importance Sampling
 
-Describe **Hamiltonian annealed importance sampling** (HAIS) and how it improves on AIS.
+[Hamiltonian annealed importance sampling](http://arxiv.org/abs/1205.1925)
+(HAIS) is a variant of AIS in which Hamiltonian dynamics are used to simulate
+the Markov transitions between the annealed distributions. An important feature
+is that the momentum term is partially preserved between transitions.
 
 
-### Related implementations
+## Examples
+
+
+### Log-gamma normalising constant
+
+Unnormalised versions of well known densities are useful test cases for
+annealed importance samplers. If $p$ is such an unnormalised density function
+then its normalising constant is simply $\mathbb{E}_p[1]$ and can be estimated
+using AIS. This estimate can be compared against the exact value to
+double-check the validity of the estimate.
+
+$X$ is said to be distributed as $\textrm{log-gamma}(\alpha, \beta)$ when $\log
+X \sim \Gamma(\alpha, \beta)$. The probability density function for a gamma
+distribution is
+
+$$
+f(x; \alpha, \beta) = \frac{\beta^\alpha}{\Gamma(\alpha)} x^{\alpha-1} e^{- \beta x}
+$$
+
+for all $x > 0$ and any given shape $\alpha > 0$ and rate $\beta > 0$. Given a change
+of variables $y = \log(x)$ we have the density for a log-gamma distribution
+
+$$
+f(y; \alpha, \beta) = \frac{\beta^\alpha}{\Gamma(\alpha)} e^{\alpha y - \beta e^y}
+$$
+
+Thus if we define our unnormalised density as $p_0(x) = e^{\alpha x - \beta e^x}$
+its normalising constant is $\frac{\Gamma(\alpha)}{\beta^\alpha}$.
+
+
+
+### Marginal likelihood
+
+
+## Implementation
+
+Our implementation is [available](https://github.com/JohnReid/HAIS) under a MIT
+license.
+
+
+### Related work
 
 We have used ideas and built upon the code from some of the following repositories:
 
