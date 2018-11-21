@@ -1,6 +1,157 @@
 ---
 references:
 
+- id: SinghMachinelearningbased2018a
+  type: article-journal
+  title: >-
+    Machine learning based classification of cells into chronological stages
+    using single-cell transcriptomics
+  container-title: Scientific Reports
+  page: '17156'
+  volume: '8'
+  issue: '1'
+  source: www.nature.com
+  abstract: >-
+    Age-associated deterioration of cellular physiology leads to pathological
+    conditions. The ability to detect premature aging could provide a window for
+    preventive therapies against age-related diseases. However, the techniques
+    for determining cellular age are limited, as they rely on a limited set of
+    histological markers and lack predictive power. Here, we implement GERAS
+    (GEnetic Reference for Age of Single-cell), a machine learning based
+    framework capable of assigning individual cells to chronological stages
+    based on their transcriptomes. GERAS displays greater than 90% accuracy in
+    classifying the chronological stage of zebrafish and human pancreatic cells.
+    The framework demonstrates robustness against biological and technical
+    noise, as evaluated by its performance on independent samplings of
+    single-cells. Additionally, GERAS determines the impact of differences in
+    calorie intake and BMI on the aging of zebrafish and human pancreatic cells,
+    respectively. We further harness the classification ability of GERAS to
+    identify molecular factors that are potentially associated with the aging of
+    beta-cells. We show that one of these factors, junba, is necessary to
+    maintain the proliferative state of juvenile beta-cells. Our results
+    showcase the applicability of a machine learning framework to classify the
+    chronological stage of heterogeneous cell populations, while enabling
+    detection of candidate genes associated with aging.
+  URL: 'https://www.nature.com/articles/s41598-018-35218-5'
+  DOI: 10.1038/s41598-018-35218-5
+  ISSN: 2045-2322
+  language: En
+  author:
+    - family: Singh
+      given: Sumeet Pal
+    - family: Janjuha
+      given: Sharan
+    - family: Chaudhuri
+      given: Samata
+    - family: Reinhardt
+      given: Susanne
+    - family: Kränkel
+      given: Annekathrin
+    - family: Dietz
+      given: Sevina
+    - family: Eugster
+      given: Anne
+    - family: Bilgin
+      given: Halil
+    - family: Korkmaz
+      given: Selçuk
+    - family: Zararsız
+      given: Gökmen
+    - family: Ninov
+      given: Nikolay
+    - family: Reid
+      given: John E.
+  issued:
+    - year: 2018
+      month: 11
+      day: 21
+  accessed:
+    - year: 2018
+      month: 11
+      day: 21
+
+- id: TischlerMetabolicregulationpluripotency2018
+  type: article-journal
+  title: >-
+    Metabolic regulation of pluripotency and germ cell fate through
+    α‐ketoglutarate
+  container-title: The EMBO Journal
+  page: e99518
+  source: emboj.embopress.org
+  abstract: >-
+    An intricate link is becoming apparent between metabolism and cellular
+    identities. Here, we explore the basis for such a link in an in vitro model
+    for early mouse embryonic development: from naïve pluripotency to the
+    specification of primordial germ cells (PGCs). Using single‐cell RNA‐seq
+    with statistical modelling and modulation of energy metabolism, we
+    demonstrate a functional role for oxidative mitochondrial metabolism in
+    naïve pluripotency. We link mitochondrial tricarboxylic acid cycle activity
+    to IDH2‐mediated production of alpha‐ketoglutarate and through it, the
+    activity of key epigenetic regulators. Accordingly, this metabolite has a
+    role in the maintenance of naïve pluripotency as well as in PGC
+    differentiation, likely through preserving a particular histone methylation
+    status underlying the transient state of developmental competence for the
+    PGC fate. We reveal a link between energy metabolism and epigenetic control
+    of cell state transitions during a developmental trajectory towards germ
+    cell specification, and establish a paradigm for stabilizing fleeting
+    cellular states through metabolic modulation.
+
+    Synopsis
+
+
+    <img class="highwire-embed" alt="Embedded Image"
+    src="http://emboj.embopress.org/sites/default/files/highwire/embojnl/early/2018/09/25/embj.201899518/embed/graphic-1.gif"/>
+
+
+    Investigations into the emerging link between metabolism and cellular
+    identity during mouse early embryonic development reveals that the
+    generation of alpha–ketoglutarate (αKG) by the mitochondrial TCA cycle
+    enzyme IDH2 can modulate the epigenome, which, in turn, can maintain naïve
+    pluripotency and prolong a transient competent state for primordial germ
+    cell (PGC) specification.
+
+
+    IDH2‐mediated production of αKG in the mitochondrial Krebs cycle promotes
+    and maintains the epigenetic state of naïve pluripotent stem cells.αKG
+    extends the transient state of developmental competence for the PGC fate.αKG
+    supports the specification of mouse PGCs.Stabilisation of transient
+    developmental states can occur through modulation of metabolic states of
+    cells.
+  URL: 'http://emboj.embopress.org/content/early/2018/09/25/embj.201899518'
+  DOI: 10.15252/embj.201899518
+  ISSN: '0261-4189, 1460-2075'
+  language: en
+  author:
+    - family: Tischler
+      given: Julia
+    - family: Gruhn
+      given: Wolfram H.
+    - family: Reid
+      given: John
+    - family: Allgeyer
+      given: Edward
+    - family: Buettner
+      given: Florian
+    - family: Marr
+      given: Carsten
+    - family: Theis
+      given: Fabian
+    - family: Simons
+      given: Ben D.
+    - family: Wernisch
+      given: Lorenz
+    - family: Surani
+      given: M. Azim
+  issued:
+    - year: 2018
+      month: 9
+      day: 26
+  accessed:
+    - year: 2018
+      month: 9
+      day: 26
+
+
 - id: StraussGPseudoRankpermutationsampler2018
   type: article-journal
   title: 'GPseudoRank: a permutation sampler for single cell orderings'
