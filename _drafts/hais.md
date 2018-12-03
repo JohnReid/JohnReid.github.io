@@ -134,8 +134,8 @@ with an analytic solution (model 1a from Sohl-Dickstein and Culpepper). In the p
 below we compare our HAIS estimates with those estimated by the BayesFlow AIS sampler
 that is included with TensorFlow (version 1.6).
 ![HAIS samples from log-gamma distribution]({{ site.url }}/images/model1a-gaussian-estimates.png)
-The dotted line represents the true marginal log likelihoods. We can see our estimates
-are much closer to the true values.
+The dotted line represents the ideal marginal log likelihood estimates. We can see our estimates
+are much closer to these true values.
 
 
 ## Implementation
