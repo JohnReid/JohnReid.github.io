@@ -27,15 +27,31 @@ of Hamiltonian dynamics for the transition kernels between the annealing
 distributions.
 
 
+### Naive Monte Carlo expectations
+
+A naive yet often practical way to estimate the expectation of a function $f(x)$
+is simply to sample from the underlying distribution $p(x)$ and take an average:
+
+$$
+  \mathbb{E}_p[f(X)] \approx \hat{\mu} = \frac{1}{N} \sum_{n=1}^{N} f(X_n), \qquad X_n \sim p
+$$
+
+However when $f(x)$ is close to zero outside some set $\mathcal{A}$ where
+$\mathbb{P}(X \in \mathcal{A})$ is small, samples from $p(X)$ typically fall
+outside of $\mathcal{A}$ and the variance of $\hat{\mu}$ is high. Estimating
+the marginal likelihood (or evidence) for a model given some data $\mathcal{D}$
+is a canonical example of this. In this case $f(x) = p(\mathcal{D}|x)$ is the
+posterior distribution and $p(x)$ is the prior. For many models and data the
+posterior will be highly concentrated around a typical set, $\mathcal{A}$, that
+only has small support under the prior.
+
+
 ### Importance Sampling
 
 [Importance sampling](https://en.wikipedia.org/wiki/Importance_sampling) (IS)
-is a method for estimating expectations $\mu = \mathbb{E}[f(X)]$ with respect
-to a density $p(x)$. It is well-suited to problems where $f(x)$ is close to
-zero outside some set $\mathcal{A}$ where $\mathbb{P}(X \in \mathcal{A})$
-is small. In this case samples from $p(X)$ typically fall outside of $\mathcal{A}$
-and Monte Carlo estimates of the expectation have high variance. The IS estimate of
-the expectation is
+is a method that can be well-suited for estimating expectations for which the
+naive Monte Carlo estimator has high variance. The IS estimate of the
+expectation is
 
 $$
   \hat{\mu}_q = \frac{1}{N} \sum_{n=1}^{N} \frac{f(X_n) p(X_n)}{q(X_n)}, \qquad X_n \sim q
@@ -52,17 +68,17 @@ will give $\hat{\mu}_q$ infinite variance.
 Finding good importance distributions when $X$ is high-dimensional and/or $p$
 is multimodal can be difficult. This makes the variance of $\hat{\mu}_q$
 difficult to control. [Annealed importance
-sampling](http://arxiv.org/abs/physics/9803008) (AIS) can alleviate this issue.
-AIS produces importance weighted samples from an unnormalised target distribution
-$p_0$ by annealing towards it from some other distribution $p_N$. For example,
+sampling](http://arxiv.org/abs/physics/9803008) (AIS) is designed to alleviate
+this issue. AIS produces importance weighted samples from an unnormalised
+target distribution $p_0$ by annealing towards it from some other distribution
+$p_N$. For example,
 
 $$p_n(x) = p_0(x)^{\beta_n} p_N(x)^{1-\beta_n}$$
-
 where $1 = \beta_0 > \beta_1 > \dots > \beta_N = 0$. To implement AIS we must be
 able to
 
   * sample from $p_N$
-  * evaluate each (potentially unnormalised) $p_n$
+  * evaluate each (potentially unnormalised) distribution $p_n$
   * simulate a Markov transition $T_n$ for each $1 \le n \le N-1$ that leaves $p_n$ invariant
 
 
@@ -92,7 +108,6 @@ distribution is
 $$
 f(x; \alpha, \beta) = \frac{\beta^\alpha}{\Gamma(\alpha)} x^{\alpha-1} e^{- \beta x}
 $$
-
 for all $x > 0$ and any given shape $\alpha > 0$ and rate $\beta > 0$. Given a change
 of variables $y = \log(x)$ we have the density for a log-gamma distribution
 
@@ -102,6 +117,12 @@ $$
 
 Thus if we define our unnormalised density as $p_0(x) = e^{\alpha x - \beta e^x}$
 its normalising constant is $\frac{\Gamma(\alpha)}{\beta^\alpha}$.
+
+Running our HAIS sampler on this unnormalised density with $\alpha = 2$ and
+$\beta = 3$ gives these samples
+![HAIS samples from log-gamma distribution]({{ site.url }}/images/hais-log-gamma-samples.png)
+and the estimate of the log normalising constant is -2.1975 (the true value is -2.1972).
+
 
 
 
@@ -126,7 +147,7 @@ We have used ideas and built upon the code from some of the following repositori
   - Tony Wu's Theano/Lasagne [implementation](https://github.com/tonywu95/eval_gen) of the methods described in
     ["On the Quantitative Analysis of Decoder-Based Generative Models"](https://arxiv.org/abs/1611.04273)
   - jiamings's (unfinished?) TensorFlow [implementation](https://github.com/jiamings/ais/) based on Tony Wu's Theano code.
-  - Stefan Webb's HMC AIS in tensorflow [repository](https://github.com/stefanwebb/tensorflow-hmc-ais).
+  - Stefan Webb's HMC AIS in TensorFlow [repository](https://github.com/stefanwebb/tensorflow-hmc-ais).
 
 
 ### Features
