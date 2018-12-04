@@ -19,12 +19,12 @@ sampling implementations.
 
 ## Introduction
 
-[Radford Neal showed](http://arxiv.org/abs/physics/9803008) how to use
+Radford Neal [showed how](http://arxiv.org/abs/physics/9803008) to use
 annealing techniques to define importance samplers suitable for complex
 multimodal distributions. [Sohl-Dickstein and Culpepper
 extended](http://arxiv.org/abs/1205.1925) his work by demonstrating the utility
 of Hamiltonian dynamics for the transition kernels between the annealing
-distributions.
+distributions. We summarise these developments here.
 
 
 ### Naive Monte Carlo expectations
@@ -43,7 +43,9 @@ the marginal likelihood (or evidence) for a model given some data $\mathcal{D}$
 is a canonical example of this. In this case $f(x) = p(\mathcal{D}|x)$ is the
 likelihood and $p(x)$ is the prior. For many models and data the
 posterior will be highly concentrated around a typical set, $\mathcal{A}$, that
-only has small support under the prior.
+only has small support under the prior. That is $p(\mathcal{D}|x)$ will be
+small for most samples from $p(x)$ and a few terms in the average will
+dominate, resulting in a high variance estimator.
 
 
 ### Importance Sampling
@@ -57,10 +59,13 @@ $$
   \hat{\mu}_q = \frac{1}{N} \sum_{n=1}^{N} \frac{f(X_n) p(X_n)}{q(X_n)}, \qquad X_n \sim q
 $$
 
-where $q$ is the **importance distribution** and $p$ is the **nominal distribution**.
-A well chosen $q$ will give $\hat{\mu}_q$ a smaller variance than the
-naive Monte Carlo estimate (equivalent to $p = q$). A badly chosen $q$
-can give $\hat{\mu}_q$ infinite variance.
+where $q$ is the **importance distribution** and $p$ is the **nominal
+distribution**. Choosing $q=p$ gives the naive Monte Carlo estimator. A well
+chosen $q$ will give $\mathbb{V}[\hat{\mu}_q] < \mathbb{V}[\hat{\mu}]$. A badly
+chosen $q$ can give $\hat{\mu}_q$ infinite variance. The ideal $q$ is
+proportional to $f(x)p(x)$. However in general this is not helpful as the
+required normalising constant is the intractable expectation we wish to
+estimate in the first place.
 
 
 ### Annealed Importance Sampling
@@ -129,13 +134,14 @@ and the estimate of the log normalising constant is -2.1975 (the true value is -
 
 ### Marginal likelihood
 
-We used our HAIS implementation to estimate the marginal log likelihood for a model
-with an analytic solution (model 1a from Sohl-Dickstein and Culpepper). In the plot
-below we compare our HAIS estimates with those estimated by the BayesFlow AIS sampler
-that is included with TensorFlow (version 1.6).
-![HAIS samples from log-gamma distribution]({{ site.url }}/images/model1a-gaussian-estimates.png)
-The dotted line represents the ideal marginal log likelihood estimates. We can see our estimates
-are much closer to these true values.
+We used our HAIS implementation to estimate the marginal log likelihood for a
+latent variable model for which an analytic solution is known (model 1a from
+Sohl-Dickstein and Culpepper). In the plot below we compare our HAIS estimates
+with those estimated by the BayesFlow AIS sampler that is included with
+TensorFlow (version 1.6). ![HAIS samples from log-gamma distribution]({{
+site.url }}/images/model1a-gaussian-estimates.png) The dotted line represents
+the ideal marginal log likelihood estimates. We see our estimates are much
+closer to these true values.
 
 
 ## Implementation
