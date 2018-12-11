@@ -1,6 +1,6 @@
 ---
 references:
-- id: 'reid_steme:_2014'
+- id: ReidSTEMERobustAccurate2014
   type: article-journal
   title: 'STEME: A Robust, Accurate Motif Finder for Large Data Sets'
   container-title: PLoS ONE
@@ -91,7 +91,7 @@ references:
     - year: 2009
   title-short: Transcriptional programs
 
-- id: granier_nodal_2011
+- id: GranierNodalcisregulatoryelements2011
   type: article-journal
   title: >-
     Nodal cis-regulatory elements reveal epiblast and primitive endoderm
@@ -216,7 +216,7 @@ references:
   issued:
     - year: 2009
 
-- id: vance_conserved_2015
+- id: VanceConservedcisregulatorymodules2015
   type: article-journal
   title: >-
     Conserved cis-regulatory modules control robustness in Msx1 expression at
@@ -296,7 +296,7 @@ references:
     - year: 2011
   title-short: STEME
 
-- id: 'gabasova_clusternomics:_2017-1'
+- id: GabasovaClusternomicsIntegrativecontextdependent2017
   type: article-journal
   title: >-
     Clusternomics: Integrative context-dependent clustering for heterogeneous
@@ -348,7 +348,7 @@ references:
   type: article-journal
   title: >-
     Metabolic regulation of pluripotency and germ cell fate through
-    α‐ketoglutarate
+    alpha--ketoglutarate
   container-title: The EMBO Journal
   page: e99518
   source: emboj.embopress.org

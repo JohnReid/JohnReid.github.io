@@ -1,6 +1,6 @@
 ---
 references:
-- id: john_reid_probabilistic_2013
+- id: ReidProbabilisticmodelstranscriptional2013
   type: thesis
   title: Probabilistic models of transcriptional regulation
   publisher: Cambridge University
@@ -73,12 +73,13 @@ references:
     modelling techniques are for quantifying uncertainty in transcriptional
     regulation.
   author:
-    - literal: John Reid
+    - family: Reid
+      given: John
   issued:
     - year: 2013
       month: 10
 
-- id: john_reid_comparison_1994
+- id: Reidcomparisonvariousneural1994
   type: thesis
   title: >-
     A comparison of various neural network architectures for learning
@@ -86,7 +87,8 @@ references:
   publisher: Cambridge University
   genre: Diploma in Computer Science
   author:
-    - literal: John Reid
+    - family: Reid
+      given: John
   issued:
     - year: 1994
 ...
