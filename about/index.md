@@ -8,10 +8,8 @@ modified: 2018-10-01
 
 ## About me
 
-I am a scientific researcher working at the Medical Research Council's
-[Biostatistics
-Unit](http://www.mrc-bsu.cam.ac.uk/people/in-alphabetical-order/n-to-s/john-reid/)
-at Cambridge University. I keep my full curriculum vitae relatively up-to-date at
+I am a research scientist working at [Blue Prism](http://www.blueprism.com)'s Research Lab
+I keep my full curriculum vitae relatively up-to-date at
 [linkedin.com](https://uk.linkedin.com/in/john-reid-8956434).  Before working
 in academia, I wrote software and consulted on middleware systems for financial
 institutions worldwide.
@@ -19,19 +17,6 @@ institutions worldwide.
 <p align="center">
   <img width='40%' src="/images/avatar.jpg"/>
 </p>
-
-
-## Contact
-
-John Reid<br>
-MRC Biostatistics Unit<br>
-Cambridge Institute of Public Health<br>
-Forvie Site, Robinson Way<br>
-Cambridge Biomedical Campus<br>
-Cambridge, CB2 0SR<br>
-United Kingdom<br>
-**Telephone**: +44 (0)1223 330300<br>
-**Email**: john.reid@mrc-bsu.cam.ac.uk
 
 
 ## Personal
