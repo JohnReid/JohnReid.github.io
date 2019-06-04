@@ -29,6 +29,7 @@ references:
     interface.
   URL: 'http://dx.doi.org/10.1371/journal.pone.0090735'
   DOI: 10.1371/journal.pone.0090735
+  title-short: STEME
   author:
     - family: Reid
       given: John E.
@@ -42,7 +43,6 @@ references:
     - year: 2014
       month: 6
       day: 2
-  title-short: STEME
   container-title-short: PLoS ONE
 
 - id: ReidVariablestructuremotifs2010
@@ -80,6 +80,7 @@ references:
   source: Google Scholar
   URL: >-
     https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-10-218
+  title-short: Transcriptional programs
   author:
     - family: Reid
       given: J.
@@ -89,7 +90,6 @@ references:
       given: L.
   issued:
     - year: 2009
-  title-short: Transcriptional programs
 
 - id: GranierNodalcisregulatoryelements2011
   type: article-journal
@@ -287,6 +287,7 @@ references:
   source: Google Scholar
   URL: 'https://academic.oup.com/nar/article/39/18/e126/1094881'
   DOI: doi.org/10.1093/nar/gkr574
+  title-short: STEME
   author:
     - family: Reid
       given: J.E.
@@ -294,7 +295,6 @@ references:
       given: L.
   issued:
     - year: 2011
-  title-short: STEME
 
 - id: GabasovaClusternomicsIntegrativecontextdependent2017
   type: article-journal
@@ -326,6 +326,7 @@ references:
     http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005781
   DOI: 10.1371/journal.pcbi.1005781
   ISSN: 1553-7358
+  title-short: Clusternomics
   author:
     - family: Gabasova
       given: Evelina
@@ -341,7 +342,6 @@ references:
     - year: 2017
       month: 10
       day: 30
-  title-short: Clusternomics
   container-title-short: PLOS Computational Biology
 
 - id: TischlerMetabolicregulationpluripotency2018
@@ -482,6 +482,7 @@ references:
   URL: >-
     https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/bty664/5059496
   DOI: 10.1093/bioinformatics/bty664
+  title-short: GPseudoRank
   language: en
   author:
     - family: Strauß
@@ -496,7 +497,6 @@ references:
     - year: 2018
       month: 9
       day: 26
-  title-short: GPseudoRank
   container-title-short: Bioinformatics
 
 - id: ReidPseudotimeestimationdeconfounding2016
@@ -514,6 +514,7 @@ references:
   URL: 'https://academic.oup.com/bioinformatics/article/32/19/2973/2196633'
   DOI: 10.1093/bioinformatics/btw372
   ISSN: 1367-4803
+  title-short: Pseudotime estimation
   language: en
   author:
     - family: Reid
@@ -528,19 +529,16 @@ references:
     - year: 2018
       month: 9
       day: 26
-  title-short: Pseudotime estimation
   container-title-short: Bioinformatics
 
-- id: SinghMachinelearningbased2018a
+- id: SinghMachinelearningbased2018
   type: article-journal
   title: >-
     Machine learning based classification of cells into chronological stages
-    using single-cell transcriptomics
-  container-title: Scientific Reports
-  page: '17156'
-  volume: '8'
-  issue: '1'
-  source: www.nature.com
+    using single-cell transcriptomics.
+  container-title: bioRxiv
+  page: '303214'
+  source: www.biorxiv.org
   abstract: >-
     Age-associated deterioration of cellular physiology leads to pathological
     conditions. The ability to detect premature aging could provide a window for
@@ -555,17 +553,15 @@ references:
     noise, as evaluated by its performance on independent samplings of
     single-cells. Additionally, GERAS determines the impact of differences in
     calorie intake and BMI on the aging of zebrafish and human pancreatic cells,
-    respectively. We further harness the classification ability of GERAS to
-    identify molecular factors that are potentially associated with the aging of
-    beta-cells. We show that one of these factors, junba, is necessary to
-    maintain the proliferative state of juvenile beta-cells. Our results
-    showcase the applicability of a machine learning framework to classify the
-    chronological stage of heterogeneous cell populations, while enabling
-    detection of candidate genes associated with aging.
-  URL: 'https://www.nature.com/articles/s41598-018-35218-5'
-  DOI: 10.1038/s41598-018-35218-5
-  ISSN: 2045-2322
-  language: En
+    respectively. We further harness the predictive power of GERAS to identify
+    genome-wide molecular factors that correlate with aging. We show that one of
+    these factors, junb, is necessary to maintain the proliferative state of
+    juvenile beta-cells. Our results showcase the applicability of a machine
+    learning framework to classify the chronological stage of heterogeneous cell
+    populations, while enabling to detect pro-aging factors and candidate genes
+    associated with aging.
+  URL: 'https://www.biorxiv.org/content/early/2018/04/17/303214'
+  language: en
   author:
     - family: Singh
       given: Sumeet Pal
@@ -575,8 +571,6 @@ references:
       given: Samata
     - family: Reinhardt
       given: Susanne
-    - family: Kränkel
-      given: Annekathrin
     - family: Dietz
       given: Sevina
     - family: Eugster
@@ -585,18 +579,106 @@ references:
       given: Halil
     - family: Korkmaz
       given: Selçuk
-    - family: Zararsız
+    - family: Reid
+      given: John E.
+    - family: Zararsiz
       given: Gökmen
     - family: Ninov
       given: Nikolay
-    - family: Reid
-      given: John E.
   issued:
     - year: 2018
-      month: 11
-      day: 21
+      month: 4
+      day: 17
   accessed:
     - year: 2018
-      month: 11
-      day: 21
+      month: 9
+      day: 26
+
+- id: ShigakiIntegrationMultipleEpigenomic
+  type: article-journal
+  title: >-
+    Integration of Multiple Epigenomic Marks Improves Prediction of Variant
+    Impact in Saturation Mutagenesis Reporter Assay
+  container-title: Human Mutation
+  volume: '0'
+  issue: ja
+  source: Wiley Online Library
+  abstract: >-
+    Integrative analysis of high-throughput reporter assays, machine learning,
+    and profiles of epigenomic chromatin state in a broad array of cells and
+    tissues has the potential to significantly improve our understanding of
+    non-coding regulatory element function and its contribution to human
+    disease. Here we report results from the CAGI 5 regulation saturation
+    challenge where participants were asked to predict the impact of nucleotide
+    substitution at every base pair within five disease associated human
+    enhancers and nine disease associated promoters. A library of mutations
+    covering all bases was generated by saturation mutagenesis and altered
+    activity was assessed in a massively parallel reporter assay (MPRA) in
+    relevant cell lines. Reporter expression was measured relative to plasmid
+    DNA to determine the impact of variants. The challenge was to predict the
+    functional effects of variants on reporter expression. Comparative analysis
+    of the full range of submitted prediction results identifies the most
+    successful models of transcription factor binding sites, machine learning
+    algorithms, and ways to choose among or incorporate diverse datatypes and
+    cell-types for training computational models. These results have the
+    potential to improve the design of future studies on more diverse sets of
+    regulatory elements and aid the interpretation of disease associated genetic
+    variation. This article is protected by copyright. All rights reserved.
+  URL: 'https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.23797'
+  DOI: 10.1002/humu.23797
+  ISSN: 1098-1004
+  language: en
+  author:
+    - family: Shigaki
+      given: Dustin
+    - family: Adato
+      given: Orit
+    - family: Adhikar
+      given: Aashish N.
+    - family: Dong
+      given: Shengcheng
+    - family: Hawkins‐Hooker
+      given: Alex
+    - family: Inoue
+      given: Fumitaka
+    - family: Juven‐Gershon
+      given: Tamar
+    - family: Kenlay
+      given: Henry
+    - family: Martin
+      given: Beth
+    - family: Patra
+      given: Ayoti
+    - family: Penzar
+      given: Dmitry P.
+    - family: Schubach
+      given: Max
+    - family: Xiong
+      given: Chenling
+    - family: Yan
+      given: Zhongxia
+    - family: Boyle
+      given: Alan P.
+    - family: Kreimer
+      given: Anat
+    - family: Kulakovskiy
+      given: Ivan V.
+    - family: Reid
+      given: John
+    - family: Unger
+      given: Ron
+    - family: Yosef
+      given: Nir
+    - family: Shendure
+      given: Jay
+    - family: Ahituv
+      given: Nadav
+    - family: Kircher
+      given: Martin
+    - family: Beer
+      given: Michael A.
+  accessed:
+    - year: 2019
+      month: 6
+      day: 4
 ...
