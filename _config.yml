@@ -1,5 +1,5 @@
 title:            John Reid
-description:      "John Reid is a researcher working in biostatistics."
+description:      "John Reid is a research scientist applying Bayesian statistics and machine learning."
 disqus_shortname: JohnReid
 reading_time:     true
 words_per_minute: 200
@@ -13,8 +13,7 @@ owner:
   name:           John Reid
   avatar:         images/avatar.jpg
   bio: >
-      Dr. John Reid is a researcher working in the fields of biostatistics at
-      the MRC Biostatistics Unit in Cambridge, UK.
+      John Reid is a research scientist applying Bayesian statistics and machine learning.
   email:          johnbaronreid@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter: __Reidy__
