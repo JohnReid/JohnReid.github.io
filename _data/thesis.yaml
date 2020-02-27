@@ -1,10 +1,19 @@
 ---
 references:
-- id: ReidProbabilisticmodelstranscriptional2013
-  type: thesis
-  title: Probabilistic models of transcriptional regulation
+- id: Reidcomparisonvariousneural1994
+  author:
+    - family: Reid
+      given: John
+  genre: Diploma in Computer Science
+  issued:
+    - year: 1994
   publisher: Cambridge University
-  genre: PhD
+  title: >-
+    A comparison of various neural network architectures for learning
+    context-dependent game strategies
+  type: thesis
+
+- id: ReidProbabilisticmodelstranscriptional2013
   abstract: >-
     Regulation of transcription lies at the heart of many of the most critical
     cellular behaviours. This regulation is mediated by the binding of
@@ -75,20 +84,11 @@ references:
   author:
     - family: Reid
       given: John
+  genre: PhD
   issued:
     - year: 2013
       month: 10
-
-- id: Reidcomparisonvariousneural1994
-  type: thesis
-  title: >-
-    A comparison of various neural network architectures for learning
-    context-dependent game strategies
   publisher: Cambridge University
-  genre: Diploma in Computer Science
-  author:
-    - family: Reid
-      given: John
-  issued:
-    - year: 1994
+  title: Probabilistic models of transcriptional regulation
+  type: thesis
 ...
