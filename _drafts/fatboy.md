@@ -26,10 +26,10 @@ results for my thesis. I was already playing backgammon in the university club
 and at the pure maths department, so the project naturally combined two
 interests.
 
-The result of this project was *Fatboy*, a backgammon playing agent taught
-entirely through self-play. Fatboy included an interface to
-[FIBS](http://www.fibs.com/) and to the best of my knowledge was the first AI
-agent to play online against all-comers on the internet.
+The result was *Fatboy*, a backgammon playing agent taught entirely through
+self-play. Fatboy included an interface to [FIBS](http://www.fibs.com/) and to
+the best of my knowledge was the first AI agent to play online against
+all-comers on the internet.
 
 <!-- Control how much is shown as an excerpt. -->
 <!--more-->
