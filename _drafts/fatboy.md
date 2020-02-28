@@ -37,24 +37,44 @@ all-comers on the internet.
 
 ## Game-playing AIs
 
-- Samuel's checkers programs.
-- Moriarty's genetic algorithms for Othello.
-- Schraudolph and other's go.
-- Tesauro's TD-Gammon.
-- Boyan's modular networks.
+Game playing is a natural environment to research and develop AI and has been
+used as such since Samuel's
+[checker](https://ieeexplore.ieee.org/abstract/document/5392560)
+[programs](https://ieeexplore.ieee.org/abstract/document/5391906) in the 50s.
+Some other notable early examples include:
+
+  - Tesauro's world class backgammon neural network agent
+    [TD-Gammon](https://en.wikipedia.org/wiki/TD-Gammon) (1989)
+  - Boyan's [modular
+    networks](https://bkgm.com/articles/Grater/Bibliography/files/Boyan-BackgammonThesis.pdf)
+    for playing backgammon (1992)
+  - Schraudolph, Dayan and Sejnowski's 9x9 [Go playing neural network
+    agent](http://www.gatsby.ucl.ac.uk/~dayan/papers/sds94.html) (1994)
+  - Moriarty and Miikkulainen's [genetic
+    algorithms](http://nn.cs.utexas.edu/downloads/papers/moriarty.discovering.pdf)
+    for Othello (1995)
 
 
 ## Why backgammon?
 
-- stochastic nature
-- positional versus tactical
+Out of all these early examples why was it that the most success was found in
+backgammon with TD-Gammon? Many of these agents shared the same learning
+algorithm and used similar neural architectures. The consensus is that it is
+the nature of backgammon that enabled TD-Gammon to perform so well. Backgammon
+is a stochastic game, the randomness of the dice precludes long-term planning.
+Calculating tactical skirmishes is less important in backgammon than in games
+such as chess. The evaluation of most chess positions (especially those
+critical to the outcome of the game) relies heavily on deep tree search to
+resolve these tactics. In contrast, the evaluation of backgammon positions
+depends more on the recognition of positional features and an understanding of
+how they interact rather than resolving a tree of variations.
 
-
-## Early 90s neural networks
-
-- no TensorFlow or PyTorch
-- back-propagation from scratch
-- ANSI C
+In addition to the effect the dice have on how to evaluate backgammon
+positions, they may also help the learning algorithm explore positions it might
+not otherwise have visited. Reinforcement learning algorithms for game playing
+can get stuck in local strategic minima when they believe their sub-optimal
+strategies are best. A bad roll can force the agent to visit positions it would
+not ordinarily choose.
 
 
 ## Reinforcement learning
@@ -65,6 +85,13 @@ Reward signal
 ### Temporal difference learning
 
 Richard Sutton
+
+
+## Early 90s neural networks
+
+- no TensorFlow or PyTorch
+- back-propagation from scratch
+- ANSI C
 
 
 ## Fatboy
