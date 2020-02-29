@@ -126,7 +126,8 @@ the position evaluations arrived at through self-play.
 Unfortunately, despite purchasing a USB floppy disk drive and trawling through
 some antiquated disks, Fatboy's source code and weights have been lost and he
 will probably never play backgammon again. This is probably for the best as he
-could not compete with modern neural network backgammon playing monsters.
+might embarrass himself against the modern neural network backgammon playing
+monsters.
 
 - playing style
 
