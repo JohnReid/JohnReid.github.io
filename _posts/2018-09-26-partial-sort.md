@@ -9,9 +9,12 @@ comment: true
 
 
 A common problem in computer science is selecting the $k$ largest (or smallest)
-elements from an unsorted list containing $n$ elements.
+elements from an unsorted list containing $n$ elements. The most commonly implemented solution is far from optimal. This post describes a better way.
 
-This is a form of [partition-based selection](
+<!-- Control how much is shown as an excerpt. -->
+<!--more-->
+
+The problem is a form of [partition-based selection](
 https://en.wikipedia.org/wiki/Selection_algorithm#Partition-based_selection).
 For example, when computing k-nearest-neighbour distances, we first calculate
 all the pairwise distances between samples, then for each sample we select the
@@ -32,9 +35,6 @@ of a factor of $\log n$.
 The statistical programming language R has an inbuilt and under-appreciated
 partial sorting implementation that can help tremendously. We showcase,
 benchmark and discuss this functionality here.
-
-<!-- Control how much is shown as an excerpt. -->
-<!--more-->
 
 
 ## Set up
