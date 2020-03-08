@@ -2,10 +2,6 @@
 references:
 
 - id: CalianSCRAMSpatiallyCoherent2019
-  type: article-journal
-  title: 'SCRAM: Spatially Coherent Randomized Attention Maps'
-  container-title: 'arXiv:1905.10308 [cs, stat]'
-  source: arXiv.org
   abstract: >-
     Attention mechanisms and non-local mean operations in general are key
     ingredients in many state-of-the-art deep learning techniques. In
@@ -29,8 +25,10 @@ references:
     can only approximate self-attention. Our preliminary experimental results
     suggest that SCRAM is indeed promising for speeding up or scaling up the
     computation of attention maps in the Transformer.
-  URL: 'http://arxiv.org/abs/1905.10308'
-  title-short: SCRAM
+  accessed:
+    - year: 2019
+      month: 6
+      day: 4
   author:
     - family: Calian
       given: Dan A.
@@ -46,14 +44,17 @@ references:
       given: John E.
     - family: Zhang
       given: Dell
+  container-title: ArXiv
   issued:
     - year: 2019
       month: 5
       day: 24
-  accessed:
-    - year: 2019
-      month: 6
-      day: 4
+  source: arXiv.org
+  title: 'SCRAM: Spatially Coherent Randomized Attention Maps'
+  title-short: SCRAM
+  type: article-journal
+  URL: 'http://arxiv.org/abs/1905.10308'
+  volume: '1905.10308'
 
 - id: Hawkins-HookerProjectionlayersimprove2018
   type: article-journal

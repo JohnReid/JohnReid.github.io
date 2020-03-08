@@ -1,6 +1,126 @@
 ---
 references:
 
+- id: StraussGPseudoClustdeconvolutionshared2020
+  abstract: >-
+    AbstractMotivation.  Many methods have been developed to cluster genes on
+    the basis of their changes in mRNA expression over time, using bulk RNA-seq
+    or microar
+  accessed:
+    - year: 2020
+      month: 3
+      day: 7
+  author:
+    - family: Strauss
+      given: Magdalena E.
+    - family: Kirk
+      given: Paul D. W.
+    - family: Reid
+      given: John E.
+    - family: Wernisch
+      given: Lorenz
+  container-title: Bioinformatics
+  container-title-short: Bioinformatics
+  DOI: 10.1093/bioinformatics/btz778
+  ISSN: 1367-4803
+  issue: '5'
+  issued:
+    - year: 2020
+      month: 3
+      day: 1
+  language: en
+  page: 1484-1491
+  publisher: Oxford Academic
+  source: academic.oup.com
+  title: >-
+    GPseudoClust: deconvolution of shared pseudo-profiles at single-cell
+    resolution
+  title-short: GPseudoClust
+  type: article-journal
+  URL: 'https://academic.oup.com/bioinformatics/article/36/5/1484/5586890'
+  volume: '36'
+
+- id: MendenCommunityassessmentadvance2019
+  abstract: >-
+    Resistance to first line treatment is a major hurdle in cancer treatment,
+    that can be overcome with drug combinations. Here, the authors provide a
+    large drug combination screen across cancer cell lines to benchmark
+    crowdsourced methods and to computationally predict drug synergies.
+  accessed:
+    - year: 2019
+      month: 6
+      day: 25
+  author:
+    - family: Menden
+      given: Michael P.
+    - family: Wang
+      given: Dennis
+    - family: Mason
+      given: Mike J.
+    - family: Szalai
+      given: Bence
+    - family: Bulusu
+      given: Krishna C.
+    - family: Guan
+      given: Yuanfang
+    - family: Yu
+      given: Thomas
+    - family: Kang
+      given: Jaewoo
+    - family: Jeon
+      given: Minji
+    - family: Wolfinger
+      given: Russ
+    - family: Nguyen
+      given: Tin
+    - family: Zaslavskiy
+      given: Mikhail
+    - family: Jang
+      given: In Sock
+    - family: Ghazoui
+      given: Zara
+    - family: Ahsen
+      given: Mehmet Eren
+    - family: Vogel
+      given: Robert
+    - family: Neto
+      given: Elias Chaibub
+    - family: Norman
+      given: Thea
+    - family: Tang
+      given: Eric K. Y.
+    - family: Garnett
+      given: Mathew J.
+    - family: Veroli
+      given: Giovanni Y. Di
+    - family: Fawell
+      given: Stephen
+    - family: Stolovitzky
+      given: Gustavo
+    - family: Guinney
+      given: Justin
+    - family: Dry
+      given: Jonathan R.
+    - family: Saez-Rodriguez
+      given: Julio
+  container-title: Nature Communications
+  DOI: 10.1038/s41467-019-09799-2
+  ISSN: 2041-1723
+  issue: '1'
+  issued:
+    - year: 2019
+      month: 6
+      day: 17
+  language: En
+  page: '2674'
+  source: www.nature.com
+  title: >-
+    Community assessment to advance computational prediction of cancer drug
+    combinations in a pharmacogenomic screen
+  type: article-journal
+  URL: 'https://www.nature.com/articles/s41467-019-09799-2'
+  volume: '10'
+
 - id: ShigakiIntegrationMultipleEpigenomic
   type: article-journal
   title: >-
@@ -88,6 +208,51 @@ references:
     - year: 2019
       month: 6
       day: 4
+
+- id: PenfoldBranchrecombinantGaussianprocesses2018
+  type: article-journal
+  title: >-
+    Branch-recombinant Gaussian processes for analysis of perturbations in
+    biological time series
+  container-title: Bioinformatics
+  page: i1005-i1013
+  volume: '34'
+  issue: '17'
+  source: academic.oup.com
+  abstract: >-
+    AbstractMotivation.  A common class of behaviour encountered in the
+    biological sciences involves branching and recombination. During branching,
+    a statistical pr
+  URL: 'https://academic.oup.com/bioinformatics/article/34/17/i1005/5093256'
+  DOI: 10.1093/bioinformatics/bty603
+  ISSN: 1367-4803
+  language: en
+  author:
+    - family: Penfold
+      given: Christopher A.
+    - family: Sybirna
+      given: Anastasiya
+    - family: Reid
+      given: John E.
+    - family: Huang
+      given: Yun
+    - family: Wernisch
+      given: Lorenz
+    - family: Ghahramani
+      given: Zoubin
+    - family: Grant
+      given: Murray
+    - family: Surani
+      given: M. Azim
+  issued:
+    - year: 2018
+      month: 9
+      day: 1
+  accessed:
+    - year: 2018
+      month: 9
+      day: 26
+  container-title-short: Bioinformatics
 
 - id: SinghMachinelearningbased2018a
   type: article-journal
@@ -266,51 +431,6 @@ references:
       month: 9
       day: 26
   title-short: GPseudoRank
-  container-title-short: Bioinformatics
-
-- id: PenfoldBranchrecombinantGaussianprocesses2018
-  type: article-journal
-  title: >-
-    Branch-recombinant Gaussian processes for analysis of perturbations in
-    biological time series
-  container-title: Bioinformatics
-  page: i1005-i1013
-  volume: '34'
-  issue: '17'
-  source: academic.oup.com
-  abstract: >-
-    AbstractMotivation.  A common class of behaviour encountered in the
-    biological sciences involves branching and recombination. During branching,
-    a statistical pr
-  URL: 'https://academic.oup.com/bioinformatics/article/34/17/i1005/5093256'
-  DOI: 10.1093/bioinformatics/bty603
-  ISSN: 1367-4803
-  language: en
-  author:
-    - family: Penfold
-      given: Christopher A.
-    - family: Sybirna
-      given: Anastasiya
-    - family: Reid
-      given: John E.
-    - family: Huang
-      given: Yun
-    - family: Wernisch
-      given: Lorenz
-    - family: Ghahramani
-      given: Zoubin
-    - family: Grant
-      given: Murray
-    - family: Surani
-      given: M. Azim
-  issued:
-    - year: 2018
-      month: 9
-      day: 1
-  accessed:
-    - year: 2018
-      month: 9
-      day: 26
   container-title-short: Bioinformatics
 
 - id: 'gabasova_clusternomics:_2017-1'

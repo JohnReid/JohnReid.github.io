@@ -43,7 +43,7 @@ references:
       given: John E.
     - family: Zhang
       given: Dell
-  container-title: 'arXiv:1905.10308 [cs, stat]'
+  container-title: ArXiv
   issued:
     - year: 2019
       month: 5
@@ -53,6 +53,7 @@ references:
   title-short: SCRAM
   type: article-journal
   URL: 'http://arxiv.org/abs/1905.10308'
+  volume: '1905.10308'
 
 - id: Hawkins-HookerProjectionlayersimprove2018
   abstract: >-
