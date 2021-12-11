@@ -1,6 +1,7 @@
 ---
 layout: page
 permalink: /family/xmas/
+description: A collection of present ideas
 ---
 
 ## Christmas 2021
