@@ -39,6 +39,7 @@ A collection of present ideas.
   quite sure what yet.
 - Interesting origami books
 - Wall planters for the kitchen
+- Terrarium
 
 Please **check** with Kathryn before buying anything, she will know if anything
 is already taken. She also has some already purchased items in her "shop". She
