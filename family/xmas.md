@@ -38,6 +38,7 @@ A collection of present ideas.
 - I definitely will need some bits and bobs for the camper van but I'm not
   quite sure what yet.
 - Interesting origami books
+- Wall planters for the kitchen
 
 Please **check** with Kathryn before buying anything, she will know if anything
 is already taken. She also has some already purchased items in her "shop". She
