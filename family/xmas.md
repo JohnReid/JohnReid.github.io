@@ -40,6 +40,8 @@ A collection of present ideas.
 - Interesting origami books
 - Wall planters for the kitchen
 - Terrarium
+- Some nice loose leaf tea and/or teaware (I have a teapot and not much else).
+  Some ideas [here](https://rareteacompany.com/collections/gifts/)
 
 Please **check** with Kathryn before buying anything, she will know if anything
 is already taken. She also has some already purchased items in her "shop". She
